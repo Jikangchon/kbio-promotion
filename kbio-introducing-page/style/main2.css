@@ -28,8 +28,6 @@ nav,
 
 body {
     width: 100%;
-    height: 100%;
-
     display: flex;
     flex-direction: column;
 }
@@ -38,11 +36,49 @@ main {
     flex: 1;
 }
 
-.body-index {
+header {
+    width: 100%;
+    height: 60px;
+    padding: 0px 40px;
+
+    line-height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-color {
+    background-color: #323232;
+    color: #c8c8c8;
+}
+
+#section1 {
+    width: 100%;
+    height: 900px;
     background-color: #323232;
 }
 
-/* Navgation Bar */
+#section2 {
+    width: 100%;
+    height: 90px;
+    background-color: pink;
+    float: left;
+}
+
+#footer {
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    background-color: #0f0f0f;
+    position: relative;
+    bottom: 0px;
+}
+
+/* ------- */
 
 #header {
     width: 100%;
@@ -108,30 +144,7 @@ main {
 }
 
 
-/* --------------------- */
-
-/* Section */
-
-#section {
-    width: 100%;
-    height: 1000px;
-    line-height: 1000px;
-    float: left;
-}
-
 /* Footer */
-
-#footer {
-    width: 100%;
-    height: 150px;
-    line-height: 150px;
-    padding: 0px 50px;
-    background-color: #171717;
-
-    position: absolute;
-    bottom: 0px;
-}
-
 .footer-group {
     width: 100%;
     height: 130px;
