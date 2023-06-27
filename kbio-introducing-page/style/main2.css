@@ -206,3 +206,7 @@ header {
     width: 100%;
     height: 500px;
 }
+
+.editor-main {
+    background-color: #737A85;
+}
