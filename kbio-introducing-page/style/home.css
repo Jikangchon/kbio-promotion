@@ -47,6 +47,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
+    overflow: hidden;
     text-align: center;
 
     background-image: 
@@ -66,6 +67,7 @@
     margin-right: auto;
     border-radius: 25px;
     text-align: center;
+    overflow: hidden;
 
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.3)),
@@ -91,6 +93,7 @@
     opacity: 75%;
     border-radius: 27px;
     margin: 15px 0px;
+    overflow: hidden;
 }
 
 .section-box2 {
@@ -98,6 +101,7 @@
     display: inline-block;
     vertical-align: middle;
     padding: 40px 100px;
+    overflow: hidden;
 }
 
 .section-bg2 {
@@ -117,6 +121,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    overflow: hidden;
 }
 
 .section-group2 .main-txt {
@@ -146,6 +151,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 .linkbtn-group a {
@@ -171,6 +177,7 @@
     line-height: 90px;
     text-align: left;
     color: #fff;
+    overflow: hidden;
 }
 
 .sec-grp3-date {
