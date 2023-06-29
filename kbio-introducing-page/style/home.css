@@ -37,9 +37,9 @@
     color: #fed457;
 }
 
-/* Second Section Part */
+/* Third Section Part */
 
-.section-group2 {
+.section-group3 {
     width: 1200px;
     height: auto;
     padding: 80px;
@@ -57,7 +57,27 @@
 }
 
 
-.second-section-title-txt {
+.section-group4 {
+    width: 1200px;
+    height: auto;
+    padding: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    text-align: center;
+
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.3)),
+    url('../images/silicon-valley-city.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+.third-section-title-txt {
     font-size: 32px;
     width: 100%;
     padding: 15px 0px;
@@ -73,12 +93,73 @@
     margin: 15px 0px;
 }
 
-.section-group3 {
+.section-box2 {
     width: 100%;
-    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 40px 100px;
+}
+
+.section-bg2 {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url('../images/consulting2.jpeg');
+    background-size: cover;
+    background-position: center top;
+}
+
+.section-group2 {
+    width: 100%;
+    height: 100%;
     padding: 80px;
-    background-color: #323232;
+    /* background-color: #323232; */
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+.section-group2 .main-txt {
+    font-size: 50px;
+    width: 600px;
+    text-align: left;
+}
+
+.section-group2 h3 {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 18px;
+}
+
+.sec2-1_txt1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.linkbtn-group {
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.linkbtn-group a {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 12px 70px; 
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.linkbtn:hover {
+    color: #000;
+    background-color: #fff;
 }
