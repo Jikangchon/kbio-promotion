@@ -154,7 +154,7 @@
     width: 60%;
     height: 100%;
     line-height: 540px;
-    padding: 30px 30px;
+    padding: 30px 62px;
     float: left;
     overflow: hidden;
     background-color: #f2f2f2;
@@ -163,19 +163,42 @@
 .profile-name {
     width: 100%;
     height: 150px;
-    line-height: normal;
-    background-color: orange;
+    line-height: 150px;
 }
 
 .profile-desc {
     width: 100%;
     height: 360px;
     line-height: normal;
-    background-color: pink;
+    border-radius: 20px;
+    padding: 0px 15px;
+    background-color: #e6e6e6;
 }
 
-.namebar {
-    width: 100%;
-    height: 100px;
-    background-color: aqua;
+.name1 {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.name1 h1 {
+    font-size: 60px;
+    float: left;
+}
+
+.name1 h2 {
+    font-size: 50px;
+    font-weight: 400;
+    float: left;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+.name1 h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.profile-desc p {
+
 }
