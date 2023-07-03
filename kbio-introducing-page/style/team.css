@@ -181,7 +181,7 @@
     height: 360px;
     line-height: normal;
     border-radius: 20px;
-    padding: 0px 15px;
+    padding: 30px 15px;
     background-color: #e6e6e6;
 }
 
@@ -207,8 +207,4 @@
 .name1 h3 {
     font-size: 25px;
     font-weight: 300;
-}
-
-.profile-desc p {
-
 }
