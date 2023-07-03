@@ -179,6 +179,7 @@
 .profile-desc {
     width: 100%;
     height: 360px;
+    display: inline-block;
     line-height: normal;
     border-radius: 20px;
     padding: 30px 15px;
