@@ -19,7 +19,6 @@
 
 #introduce-section {
     width: 100%;
-    height: 800px;
     padding: 50px 180px;
     background-image: 
     linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
@@ -82,18 +81,29 @@
     font-weight: 400;
 }
 
-#introduce-section h1 {
-    display: inline-block;
-    line-height: normal;
-    font-size: 70px;
-    margin-bottom: 100px;
-    color: #445878;
+.introduce-container {
+    width: 100%;
+    height: 800px;
+    line-height: 800px;
+    background-color: pink;
 }
 
-#introduce-section h2 {
+.introduce-content {
+    width: 100%;
+    height: 100%;
     display: inline-block;
     line-height: normal;
+}
+
+.introduce-content h1 {
+    font-size: 70px;
+    color: #445878;
+    background-color: orange;
+}
+
+.introduce-content h2 {
     font-size: 45px;
+    background-color: aqua;
 }
 
 .introduce-title2 {
