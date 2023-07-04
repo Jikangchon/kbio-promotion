@@ -43,7 +43,12 @@
 #contact-section {
     width: 100%;
     height: 280px;
+    line-height: 280px;
     padding: 0px 180px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/message-icon.jpg');
+    background-size: contain;
+    background-position: center center;
 }
 
 /* ----------------- */
@@ -185,7 +190,11 @@
 }
 
 .desc-list {
-    margin-top: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .name1 {
@@ -210,4 +219,24 @@
 .name1 h3 {
     font-size: 25px;
     font-weight: 300;
+}
+
+.contact-txt-group {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-txt {
+    width: 100%;
+    color: #fff;
+}
+
+.contact-txt h1 {
+    font-size: 40px;
+}
+
+.contact-txt p {
+    font-size: 20px;
+    font-weight:200;
 }
