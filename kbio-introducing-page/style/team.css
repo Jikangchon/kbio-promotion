@@ -159,7 +159,7 @@
     width: 40%;
     height: 100%;
     float: left;
-    background-image: url('../images/ceo-ref1.jpg');
+    background-image: url('../images/ceo.jpeg');
     background-size: cover;
     background-position: center center;
 }
@@ -245,7 +245,7 @@
 .services-title {
     width: 100%;
     height: 120px;
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     color: #687282;
 }
@@ -264,6 +264,7 @@
 .services-part {
     width: 100%;
     padding: 50px 0px;
+    margin-bottom: 100px;
 }
 
 .icon-group-box {
@@ -287,4 +288,6 @@
 
 .icon-box h1 {
     font-size: 20px;
+    font-weight: 400;
+    color: #2b4060;
 }
