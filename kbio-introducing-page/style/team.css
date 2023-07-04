@@ -204,6 +204,10 @@
     vertical-align: middle;
 }
 
+.name-job {
+    width: 100%;
+}
+
 .name1 h1 {
     font-size: 60px;
     float: left;
@@ -220,6 +224,7 @@
 .name1 h3 {
     font-size: 25px;
     font-weight: 300;
+    float: left;
 }
 
 .contact-txt-group {
