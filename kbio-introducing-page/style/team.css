@@ -85,7 +85,6 @@
     width: 100%;
     height: 800px;
     line-height: 800px;
-    background-color: pink;
 }
 
 .introduce-content {
@@ -98,7 +97,6 @@
 .introduce-content h1 {
     font-size: 70px;
     color: #445878;
-    background-color: orange;
 }
 
 .introduce-content h2 {
@@ -184,6 +182,10 @@
     border-radius: 20px;
     padding: 30px 15px;
     background-color: #e6e6e6;
+}
+
+.desc-list {
+    margin-top: 20px;
 }
 
 .name1 {
