@@ -1,3 +1,11 @@
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
 #section1-1 {
     width: 100%;
     height: auto;
@@ -93,6 +101,11 @@
     border-radius: 8px;
     background-color: #EFEFEF;
     overflow: hidden;
+
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
 }
 
 .news-header {
