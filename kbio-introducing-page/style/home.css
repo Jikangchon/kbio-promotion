@@ -2,6 +2,43 @@
     background-color: #323232;
 }
 
+#section5 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 100px 120px;
+}
+
+.section-group5 {
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.section-part1 {
+    width: 100%;
+    height: 800px auto;
+    padding: 30px 80px;
+}
+
+.section-part1 .text-box {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.section-part1 h1 {
+    font-size: 57px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-part1 iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #section1 .section-group {
     width: 100%;
     height: 900px;
