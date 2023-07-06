@@ -247,13 +247,13 @@
 
     #section3 {
         width: 100%;
-        padding: 40px 32px;
+        padding: 40px 12px;
         float: left;
     }
 
     .section-group3 {
         width: 100%;
-        padding: 50px 30px;
+        padding: 50px 20px;
     }
 
     .sec-grp3-date {
@@ -286,13 +286,13 @@
 
     #section4 {
         width: 100%;
-        padding: 40px 32px;
+        padding: 40px 12px;
         float: left;
     }
 
     .section-group4 {
         width: 100%;
-        padding: 50px 30px;
+        padding: 50px 20px;
     }
 
     .third-section-title-txt {
@@ -320,6 +320,24 @@
 
     .linkbtn-group .linkbtn {
         padding: 10px 40px;
+    }
+
+    #section5 {
+        width: 100%;
+        float: left;
+        padding: 50px 20px;
+    }
+
+    .section-group5 {
+        padding: 50px 0px;
+    }
+
+    .section-part1 {
+        padding: 20px 38px;
+    }
+
+    .section-part1 h1 {
+        font-size: 35px;
     }
 
 
