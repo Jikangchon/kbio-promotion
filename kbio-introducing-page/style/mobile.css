@@ -1,4 +1,5 @@
-@media screen and (max-width: 964px) {
+
+@media screen and (max-width: 1160px) {
     * {
         box-sizing: border-box;
         font-family: 'Noto Sans KR', sans-serif;
@@ -26,7 +27,6 @@
     }
     
     body {
-        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -34,34 +34,260 @@
     main {
         flex: 1;
         padding-top: 60px;
+        width: 100%;
     }
     
     #header {
         width: 100%;
-        line-height: 60px;
-        display: flex;
-        overflow: hidden;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 1;
+        height: 60px;
     }
 
     .logo-main {
         width: 200px;
     }
-    
-    .logo-main img {
-        /* display: inline-block;
+
+    #navBar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #navBar ul li a {
+        width: 100%;
+    }
+
+    #section1 {
+        width: 100%;
+        height: 500px;
+    }
+
+    #section1 .section-group {
+        width: 100%;
+        height: 500px;
+        line-height: 500px;
+        text-align: center;
+    }
+
+    .section-group .section-group-txt {
+        width: 100%;
+        line-height: normal;
+        display: inline-block;
         vertical-align: middle;
-        padding-bottom: 5px; */
-        background-color: orange;
+    }
+    .section-group-txt h3 {
+        font-size: 25px;
+    }
+
+    .section-group-txt h1 {
+        font-size: 75px;
+    }
+
+    .section-group-txt p {
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .section-group-txt .p2 {
+        font-size: 20px;
+    }
+
+
+    #section2 {
+        padding: 20px 65px;
+    }
+
+    #section3 {
+        width: 100%;
+        padding: 60px 65px;
+    }
+
+    .section-group3 {
+        width: 100%;
+    }
+
+    .section-box {
+        width: 100%;
+        padding: 35px 55px;
+    }
+
+    #section4 {
+        width: 100%;
+        padding: 60px 65px;
+    }
+
+    .section-group4 {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 512px) and (max-width: 680px) {
+    * {
+        box-sizing: border-box;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    a,
+    ul,
+    li,
+    section,
+    main,
+    header,
+    footer,
+    div,
+    nav,
+    #navBar {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    
+    body {
+        display: block;
+        flex-direction: column;
+    }
+    
+    main {
+        padding-top: 60px;
+        width: 100%;
+    }
+    
+    #header {
+        width: 100%;
+        height: 60px;
+    }
+
+    .logo-main {
+        width: 200px;
     }
 
     #navBar {
-        height: 100%;
-        text-align: center;
-        display: flex;
-        padding-right: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    #navBar ul li a {
+        width: 100%;
+    }
+
+    #section1 {
+        width: 100%;
+        height: 500px;
+        float: left;
+    }
+
+    #section1 .section-group {
+        width: 100%;
+        height: 500px;
+        line-height: 500px;
+        text-align: center;
+    }
+
+    .section-group .section-group-txt {
+        width: 100%;
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .section-group-txt h3 {
+        font-size: 25px;
+    }
+
+    .section-group-txt h1 {
+        font-size: 65px;
+    }
+
+    .section-group-txt p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .section-group-txt .p2 {
+        font-size: 15px;
+    }
+
+
+    #section2 {
+        padding: 20px 65px;
+        float: left;
+    }
+
+    .section-group2 {
+        width: 100%;
+        padding: 30px 5px;
+        display: block;
+        overflow: visible;
+    }
+
+    .section-group2 .main-txt {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .section-group2 h3 {
+        font-size: 20px;
+    }
+
+    #section3 {
+        width: 100%;
+        padding: 40px 45px;
+        float: left;
+    }
+
+    .section-group3 {
+        width: 100%;
+        padding: 50px 38px;
+    }
+
+    .sec-grp3-date {
+        font-size: 45px;
+        height: 70px;
+    }
+
+    .sec-grp3-update-txt {
+        font-size: 80px;
+    }
+
+    .section-box ul {
+        font-size: 20px;
+    }
+
+    .section-box {
+        width: 100%;
+        padding: 35px 50px;
+    }
+
+    #section4 {
+        width: 100%;
+        padding: 40px 45px;
+        float: left;
+    }
+
+    .section-group4 {
+        width: 100%;
+    }
+
+    #section2-1 {
+        padding: 0px 0px; 
+    }
+
+    .section-box2 {
+        padding: 45px 120px;
+    }
+
+    #footer {
+        float: left;
+    }
 }
+
+
+
+
