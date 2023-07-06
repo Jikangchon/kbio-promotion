@@ -1,0 +1,66 @@
+@media screen and (max-width: 964px) {
+    * {
+        box-sizing: border-box;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    a,
+    ul,
+    li,
+    section,
+    main,
+    header,
+    footer,
+    div,
+    nav,
+    #navBar {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main {
+        flex: 1;
+        padding-top: 60px;
+    }
+    
+    #header {
+        width: 100%;
+        line-height: 60px;
+        display: flex;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+    }
+
+    .logo-main {
+        width: 200px;
+    }
+    
+    .logo-main img {
+        /* display: inline-block;
+        vertical-align: middle;
+        padding-bottom: 5px; */
+        background-color: orange;
+    }
+
+    #navBar {
+        height: 100%;
+        text-align: center;
+        display: flex;
+        padding-right: 50px;
+    }
+}
