@@ -220,7 +220,8 @@
     }
 
     .navBar_menu.active,
-    #navBar ul.active {
+    #navBar ul.active,
+    #navBar ul li.active {
         display: flex;
     }
 
