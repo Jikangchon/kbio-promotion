@@ -43,7 +43,7 @@ header {
     padding: 0px 40px;
 
     line-height: 60px;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -53,6 +53,15 @@ header {
     z-index: 1;
     background-color: #101c30;
     color: rgb(212, 224, 255);
+}
+
+.navBar_toggleBtn {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 3px;
+    color: var(--accent-color);
+    display: none;
 }
 
 .header-color {
@@ -136,7 +145,7 @@ header {
 }
 
 #navBar {
-    height: 60px;
+    /* height: 60px; */
     line-height: 60px;
     display: flex;
     float: right;

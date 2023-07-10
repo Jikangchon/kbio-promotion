@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700&display=swap" rel="stylesheet">
@@ -14,6 +15,8 @@
         @import url('./style/mobile.css') screen and (max-width: 1160px);
         @import url('./style/mobile.css') screen and (max-width: 479px);
     </style>
+    <script src="https://kit.fontawesome.com/ce589813f3.js" crossorigin="anonymous"></script>
+    <script src="/kbio-introducing-page/main.js" defer></script>
     <title>케이바이오솔루션 - Home</title>
 </head>
 <body>
@@ -22,7 +25,10 @@
             <a href="index.html"><img src="./images/kbio-wh-logo.png" alt="KBIO Logo" width="200"></a>
         </div>
         <nav id="navBar">
-            <ul>
+            <a href="#" class="navBar_toggleBtn">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </a>
+            <ul class="navBar_menu">
                 <li><a href="press-page.html">언론보도</a></li>
                 <li><a href="page1.html">뉴스레터</a></li>
                 <li><a href="page2.html">프로모션</a></li>
