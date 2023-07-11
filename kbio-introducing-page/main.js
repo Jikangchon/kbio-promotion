@@ -3,4 +3,4 @@ const menu = document.querySelector('.navBar_menu');
 
 toggleBtn.addEventListener('click', () => {
     menu.classList.toggle('active')
-});
+})
