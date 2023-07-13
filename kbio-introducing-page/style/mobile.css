@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 700px) {
     * {
         box-sizing: border-box;
         font-family: 'Noto Sans KR', sans-serif;
@@ -99,7 +99,7 @@
 
 
     #section2 {
-        padding: 20px 65px;
+        padding: 80px 40px;
     }
 
     #section3 {
@@ -291,7 +291,7 @@
         overflow: visible;
     }
 
-    .section-group2 .main-txt {
+    .main-txt {
         font-size: 26px;
         width: 100%;
     }
