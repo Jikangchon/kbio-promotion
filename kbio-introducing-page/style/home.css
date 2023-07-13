@@ -78,7 +78,7 @@
 .section-group3 {
     width: 1200px;
     height: auto;
-    padding: 80px;
+    padding: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -97,7 +97,7 @@
 .section-group4 {
     width: 1200px;
     height: auto;
-    padding: 80px;
+    padding: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -216,16 +216,16 @@
 }
 
 .sec-grp3-date {
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 300;
 }
 
 .sec-grp3-update-txt {
-    font-size: 100px;
+    font-size: 90px;
 }
 
 .section-box ul {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     text-align: left;
 }
