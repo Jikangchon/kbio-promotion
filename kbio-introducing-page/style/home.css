@@ -34,8 +34,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    height: 520px;
+    width: 100%;
+    height: 0;
+    padding-top: 50%;
 }
 
 #section1 .section-group {
@@ -76,9 +77,9 @@
 /* Third Section Part */
 
 .section-group3 {
-    width: 1200px;
+    width: 100%;
     height: auto;
-    padding: 30px;
+    padding: 30px 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -95,9 +96,9 @@
 
 
 .section-group4 {
-    width: 1200px;
+    width: 100%;
     height: auto;
-    padding: 30px;
+    padding: 30px 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -151,7 +152,7 @@
 .section-group2 {
     width: 100%;
     height: 100%;
-    padding: 0px 0px;
+    padding: 50px 0px;
     /* background-color: #323232; */
     display: block;
     margin-left: auto;
@@ -221,7 +222,7 @@
 }
 
 .sec-grp3-update-txt {
-    font-size: 90px;
+    font-size: 110px;
 }
 
 .section-box ul {
