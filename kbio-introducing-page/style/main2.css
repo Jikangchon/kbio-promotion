@@ -68,6 +68,10 @@ header {
     opacity: 80%;
 }
 
+#menu-btn.active {
+    display: flex;
+}
+
 .header-color {
     background-color: #101c30;
     color: rgb(212, 224, 255);
