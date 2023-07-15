@@ -1,0 +1,297 @@
+@media screen and (max-width: 479px) {
+    * {
+        box-sizing: border-box;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    a,
+    ul,
+    li,
+    section,
+    main,
+    header,
+    footer,
+    div,
+    nav,
+    #navBar {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    
+    body {
+        display: block;
+        flex-direction: column;
+    }
+    
+    main {
+        padding-top: 60px;
+        width: 100%;
+    }
+    
+    #header {
+        width: 100%;
+        height: 60px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-main {
+        width: 180px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navBar_menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #navBar ul li {
+        display: none;
+        width: 100%;
+        text-align: center;
+        background-color: #101c30;
+        transition: 0.2s;
+    }
+
+    #navBar ul li a {
+        width: 100%;
+        text-align: center;
+        transition: 0,2s;
+    }
+
+    #navBar ul li:hover {
+        background-color: #1c2e4d;
+    }
+
+    .navBar_toggleBtn {
+        /* display: flex; */
+    }
+
+    #section1 {
+        width: 100%;
+        height: 400px;
+        float: left;
+    }
+
+    #section1 .section-group {
+        width: 100%;
+        height: 400px;
+        line-height: 400px;
+        text-align: center;
+    }
+
+    .section-group .section-group-txt {
+        width: 100%;
+        line-height: normal;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .section-group-txt h3 {
+        font-size: 22px;
+    }
+
+    .section-group-txt h1 {
+        font-size: 27px;
+    }
+
+    .section-group-txt p {
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    .section-group-txt .p2 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+    #section2 {
+        padding: 20px 40px;
+        float: left;
+    }
+
+    .section-group2 {
+        width: 100%;
+        padding: 30px 5px;
+        display: block;
+        overflow: visible;
+    }
+
+    .section-group2 .main-txt {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .section-group2 h3 {
+        font-size: 20px;
+    }
+
+    .section-bg2 {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../images/consulting2.jpeg');
+        background-size: cover;
+        background-position: center top;
+    }
+
+    #section3 {
+        width: 100%;
+        padding: 40px 50px;
+        float: left;
+    }
+
+    .section-group3 {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    .sec-grp3-date {
+        font-size: 35px;
+        height: 65px;
+    }
+
+    .sec-grp3-update-txt {
+        font-size: 72px;
+    }
+
+    .section-box ul {
+        font-size: 15px;
+    }
+
+    .section-box {
+        width: 100%;
+        padding: 35px 35px;
+    }
+
+    .section-box h1 {
+        font-size: 18px;
+    }
+
+    .section-box p {
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    #section4 {
+        width: 100%;
+        padding: 40px 50px;
+        float: left;
+    }
+
+    .section-group4 {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    .third-section-title-txt {
+        font-size: 22px;
+    }
+
+    #section2-1 {
+        padding: 0px 0px; 
+    }
+
+    .section-box2 {
+        padding: 42px 70px;
+    }
+
+    .sec2-1_txt1 {
+        font-size: 25px;
+    }
+
+    .linkbtn-group {
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        margin-top: 14px;
+    }
+
+    .linkbtn-group .linkbtn {
+        padding: 10px 40px;
+    }
+
+    #section5 {
+        width: 100%;
+        float: left;
+        padding: 50px 20px;
+    }
+
+    .section-group5 {
+        padding: 50px 0px;
+    }
+
+    .section-part1,
+    .section-part2 {
+        padding: 20px 38px;
+    }
+
+    .section-part1 h1 {
+        font-size: 35px;
+    }
+
+    .section-part1 iframe {
+        width: 100%;
+    }
+
+    .section-part2 h1 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .section-part2 p {
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+
+
+    #footer {
+        width: 100%;
+        height: 270px;
+        padding: 40px 30px;
+    }
+
+    .footer-group {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo-main2 img {
+        width: 100%;
+        max-width: 280px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .f-sec1 {
+        width: 100%;
+        line-height: 60px;
+        display: block;
+        float: left;
+        text-align: center;
+    }
+
+    .f-sec2 {
+        display: block;
+        width: 100%;
+        height: 100px;
+        line-height: 100px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .section-group-txt .p2 {
+        display: none;
+    }
+}
