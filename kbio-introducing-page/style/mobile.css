@@ -164,7 +164,7 @@
 
     #section6 {
         height: 100%;
-        padding: 50px 250px;
+        padding: 50px 300px;
     }
 
     .section-group6 {
@@ -488,13 +488,14 @@
     }
 
     .section-group6 {
-        width: 100%;
+        width: 50%;
         height: 100%;
     }
 
     .group-box {
-        width: 100%;
-        margin: 30px 0px;
+        width: 280px;
+        height: 320px;
+        margin: 10px 0px;
     }
 
 
@@ -666,7 +667,7 @@
 
     #section4 {
         width: 100%;
-        padding: 60px 65px;
+        padding: 60px 40px;
     }
 
     .section-group4 {
@@ -709,7 +710,7 @@
 
     #section6 {
         height: 100%;
-        padding: 50px 250px;
+        padding: 50px 50px;
     }
 
     .section-group6 {
@@ -718,8 +719,7 @@
     }
 
     .group-box {
-        width: 100%;
-        margin: 30px 0px;
+        margin: 30px 10px;
     }
 
 
