@@ -129,7 +129,7 @@
     }
 
     .section-group2 .main-txt {
-        font-size: 40px;
+        font-size: 30px;
         width: 100%;
     }
 
@@ -147,7 +147,7 @@
 
     #section3 {
         width: 100%;
-        padding: 40px 50px;
+        padding: 40px 20px;
         float: left;
     }
 
@@ -204,7 +204,7 @@
     }
 
     .section-box2 {
-        padding: 42px 70px;
+        padding: 42px 20px;
     }
 
     .sec2-1_txt1 {
@@ -243,6 +243,7 @@
 
     .section-part1 iframe {
         width: 100%;
+        padding: 0px;
     }
 
     .section-part2 h1 {
@@ -289,6 +290,14 @@
         line-height: 100px;
         padding: 0px;
         text-align: center;
+    }
+
+    .f-sec2 .f-location {
+        font-size: 12px;
+    }
+
+    .f-sec2 .f-copy {
+        font-size: 11px;
     }
 
     .section-group-txt .p2 {
