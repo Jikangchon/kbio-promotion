@@ -20,14 +20,24 @@
     padding: 30px 80px;
 }
 
-.section-part1 .text-box {
+.text-box {
     width: 100%;
     height: 100%;
-    margin-bottom: 30px;
+    margin: 30px 0px;
 }
 
 .section-part1 h1 {
-    font-size: 57px;
+    font-size: 50px;
+}
+
+.section-part2 h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    font-size: 18px;
+    padding-right: 50px;
 }
 
 .section-part1 iframe {
@@ -35,8 +45,11 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 0;
-    padding-top: 50%;
+    height: 420px;
+}
+
+.section-part2 {
+    padding: 30px 80px;
 }
 
 #section1 .section-group {
@@ -161,6 +174,7 @@
     overflow: hidden;
 }
 
+
 .section-group2 .main-txt {
     font-size: 50px;
     text-align: left;
@@ -177,6 +191,10 @@
     font-size: 30px;
     font-weight: 400;
     color: #fff;
+}
+
+.section-box h1 {
+    font-size: 25px;
 }
 
 .linkbtn-group {

@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1050px) {
     * {
         box-sizing: border-box;
         font-family: 'Noto Sans KR', sans-serif;
@@ -149,8 +149,7 @@
     }
 
     .section-part1 iframe {
-        width: 100%;
-        height: 200px;
+        padding: 0px;
     }
 
     .section-part2 h1 {
@@ -337,12 +336,12 @@
     }
 
     .section-group2 .main-txt {
-        font-size: 40px;
+        font-size: 30px;
         width: 100%;
     }
 
     .section-group2 h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .section-bg2 {
@@ -355,7 +354,7 @@
 
     #section3 {
         width: 100%;
-        padding: 40px 50px;
+        padding: 40px 25px;
         float: left;
     }
 
@@ -394,7 +393,7 @@
 
     #section4 {
         width: 100%;
-        padding: 40px 50px;
+        padding: 40px 25px;
         float: left;
     }
 
@@ -412,7 +411,7 @@
     }
 
     .section-box2 {
-        padding: 42px 70px;
+        padding: 42px 50px;
     }
 
     .sec2-1_txt1 {
@@ -451,6 +450,7 @@
 
     .section-part1 iframe {
         width: 100%;
+        padding: 0px;
     }
 
     .section-part2 h1 {
