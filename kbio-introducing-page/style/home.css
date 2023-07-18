@@ -6,10 +6,11 @@
     width: 100%;
     height: 100%;
     float: left;
-    padding: 200px 200px;
+    padding: 200px 50px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/earth.jpeg');
     background-size: cover;
+    background-position: center center;
 }
 
 video {
@@ -24,7 +25,7 @@ video {
 .section-part1 {
     width: 100%;
     height: 800px auto;
-    padding: 30px 80px;
+    padding: 30px 250px;
     color: #EBFEFF;
 }
 
@@ -47,8 +48,12 @@ video {
 .text-box p {
     font-size: 18px;
     font-weight: 300;
-    padding-right: 50px;
     color: #EBFEFF;
+
+}
+
+.yt-video {
+    width: 100%;
 }
 
 .section-part1 iframe {
@@ -56,12 +61,12 @@ video {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 420px;
+    height: 600px;
     border-radius: 15px;
 }
 
 .section-part2 {
-    padding: 30px 80px;
+    padding: 30px 250px;
 }
 
 #section1 .section-group {
@@ -72,7 +77,7 @@ video {
 }
 
 .section-group .section-group-txt {
-    width: 1200px;
+    width: 100%;
     line-height: normal;
     display: inline-block;
     vertical-align: middle;
