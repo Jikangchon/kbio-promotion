@@ -197,22 +197,27 @@ header {
 
     display: inline-block;
     vertical-align: middle;
-    line-height: 130px;
+    line-height: normal;
     margin: 0;
     padding: 0;
     text-align: left;
+    position: relative;
+    bottom: 4px;
 }
 
 .f-sec1 {
     /* height: 130px; */
     /* line-height: 130px; */
-    display: inline;
+    height: 100%;
+    line-height: 130px;
+    display: block;
     float: left;
 }
 
 .f-sec2 {
-    height: 130px;
+    height: 100%;
     line-height: 130px;
+    display: block;
     float: left;
     color: #fff;
     padding-left: 50px;
