@@ -499,12 +499,19 @@
     .group-box {
         width: 280px;
         height: 320px;
+        line-height: 320px;
         margin: 10px 0px;
     }
 
-    .box-content {
+    .group-box-content {
         display: inline-block;
         vertical-align: middle;
+        line-height: normal;
+    }
+
+    .box-content {
+        position: relative;
+        top: 35px;
     }
 
 
