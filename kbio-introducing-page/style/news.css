@@ -12,6 +12,10 @@ body {
     padding: 170px 0px;
 }
 
+.section1-title {
+    line-height: 42px;
+}
+
 #header-title {
     width: 100%;
     height: auto;
@@ -120,7 +124,7 @@ body {
     width: 100%;
     height: auto;
     line-height: auto;
-    padding: 50px 100px;
+    padding: 100px 50px;
     background-color: #eaeaea;
 }
 
@@ -257,7 +261,7 @@ body {
 }
 
 .news-title2 {
-    margin-top: 20px;
+    margin-top: 60px;
     text-align: center;
 }
 
