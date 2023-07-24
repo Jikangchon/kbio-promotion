@@ -203,8 +203,14 @@ body {
     text-align: center;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section-font1 {
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .image1 {
@@ -246,6 +252,8 @@ body {
 .link-buttonGroup {
     padding: 0px 150px;
     margin: 30px 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .news-title2 {
