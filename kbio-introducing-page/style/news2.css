@@ -270,6 +270,7 @@ body {
 
 .news-paragraph a {
     color: #000;
+    text-decoration: none;
 }
 
 .link-buttonGroup {
