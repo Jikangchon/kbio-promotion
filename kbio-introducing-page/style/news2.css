@@ -260,10 +260,12 @@ body {
     text-align: left;
     font-size: 22px;
     padding-right: 30px;
+    color: #000;
 }
 
 .news-title-size {
     font-size: 30px;
+    color: #000;
 }
 
 .news-sec-group p {
@@ -365,11 +367,13 @@ body {
     font-size: 45px;
     text-align: center;
     margin-bottom: 25px;
+    color: #000;
 }
 
 .special-menu-h2 {
     font-size: 22px;
     font-weight: 300;
+    color: #000;
 }
 
 .special-menu-box {
