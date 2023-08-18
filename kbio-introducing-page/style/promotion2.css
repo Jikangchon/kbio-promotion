@@ -27,6 +27,28 @@
     line-height: normal;
 }
 
+.event-sample-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../images/promotion-sample1.jpg');
+    background-size: 150%;
+    background-position: center center;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+}
+
+.event-sample-bg:hover {
+    background-size: 170%;
+}
+
+.section-group h1 {
+    font-size: 35px;
+    font-weight: 500;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    color: #fff;
+}
+
 .promotion-title {
     font-size: 50px;
     font-weight: 700;
