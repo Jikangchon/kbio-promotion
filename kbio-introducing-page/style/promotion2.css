@@ -1,0 +1,29 @@
+#section1 {
+    width: 100%;
+    height: auto;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+#section1 .partition {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#section1 .section-group {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 25px;
+    float: left;
+    overflow: hidden;
+    background-color: #c4c4c4;
+}
+
+.promotion-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #000;
+}
