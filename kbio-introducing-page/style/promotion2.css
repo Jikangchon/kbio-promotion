@@ -14,11 +14,17 @@
 #section1 .section-group {
     width: 400px;
     height: 400px;
+    line-height: 400px;
     margin: 20px;
     border-radius: 25px;
     float: left;
     overflow: hidden;
     background-color: #c4c4c4;
+}
+
+.section-group img {
+    display: inline-block;
+    line-height: normal;
 }
 
 .promotion-title {
