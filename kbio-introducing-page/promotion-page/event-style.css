@@ -66,15 +66,40 @@ main {
 #section1 {
     width: 100%;
     height: 500px;
-    padding: 30px 100px;
-    background-image: url('../images/kbiocafe-interior.jpg');
+    line-height: 500px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
+    url('../images/kbiocafe-interior.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 #section1 .container-box {
-    width: 800px;
-    height: 300px;
-    background-color: rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    line-height: normal;
+    color: #fff;
+    text-align: center;
 }
+
+#section1 .container-box .container-box-group {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#section1 .container-box span {
+    font-size: 15px;
+}
+
+#section1 .container-box h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+#section1 .container-box h2 {
+    font-size: 20px;
+}
+
+
+/* Section 2 */
