@@ -1,0 +1,80 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding-top: 70px;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    padding: 0px 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #303030;
+
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#header .logo-box {
+    width: 200px;
+    height: 100%;
+    line-height: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-box img {
+    width: 180px;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.backbtn {
+    width: 80px;
+    height: 100%;
+    line-height: 70px;
+    text-align: center;
+}
+
+.backbtn button {
+    width: 100%;
+    height: 45px;
+    line-height: normal;
+    border: 0px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #575757;
+    transition: 0.2s;
+}
+
+.backbtn button:hover {
+    background-color: #161616;
+}
+
+
+/* Section 1 */
+#section1 {
+    width: 100%;
+    height: 500px;
+    padding: 30px 100px;
+    background-image: url('../images/kbiocafe-interior.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#section1 .container-box {
+    width: 800px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4);
+}
