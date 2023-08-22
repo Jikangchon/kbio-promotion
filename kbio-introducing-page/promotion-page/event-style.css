@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     display: flex;
@@ -37,6 +41,11 @@ main {
     display: inline-block;
     line-height: normal;
     vertical-align: middle;
+    transition: 0.2s;
+}
+
+.logo-box img:hover {
+    filter: brightness(150%);
 }
 
 .backbtn {
@@ -59,6 +68,87 @@ main {
 
 .backbtn button:hover {
     background-color: #161616;
+}
+
+
+/* Footer */
+#footer {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #131313;
+}
+
+.footer-group {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    bottom: 4px;
+}
+
+.f-sec1 {
+    /* height: 130px; */
+    /* line-height: 130px; */
+    width: 20%;
+    display: block;
+    line-height: 130px;
+    float: left;
+    text-align: center;
+}
+
+.f-sec2 {
+    width: 80%;
+    line-height: 130px;
+    display: block;
+    float: left;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.logo-main2 {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    line-height: normal;
+}
+
+.logo-main2 img {
+    max-width: 150px;
+    height: auto;
+    transition: 0.2s;
+}
+
+.logo-main2 img:hover {
+    filter: brightness(150%);
+}
+
+.logo-main2 a {
+    width: 100%;
+    height: 100%;
+}
+
+.f-sec2-grp {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+
+.f-sec2 .f-location {
+    font-size: 15px;
+}
+
+.f-sec2 .f-copy {
+    font-size: 13px;
+    margin-top: 10px;
+    opacity: 75%;
 }
 
 
@@ -103,3 +193,81 @@ main {
 
 
 /* Section 2 */
+#section2 {
+    width: 100%;
+    padding: 80px 30px;
+    text-align: center;
+    background-color: #e4d2c7;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.box-group {
+    width: 100%;
+    display: inline-block;
+    flex-direction: column;
+    padding: 20px;
+    background-color: orange;
+}
+
+.menu-box {
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    text-align: center;
+    float: left;
+    color: #000;
+    margin: 10px 10px;
+}
+
+.container-title {
+    font-size: 32px;
+    color: #000;
+    margin: 20px 0px;
+}
+
+.menu-img {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.menu-img img {
+    width: 100%;
+}
+
+.menu-title {
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.menu-price {
+    font-size: 23px;
+    margin: 0;
+}
+
+#order-btn {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 0px;
+    color: #fff;
+    background-color: #323232;
+    transition: 0.2s;
+}
+
+#order-btn:hover {
+    color: #ffd857;
+    filter: brightness(85%);
+}
