@@ -209,7 +209,6 @@ main {
 .box-group {
     width: 100%;
     display: inline-block;
-    flex-direction: column;
     padding: 20px;
     background-color: orange;
 }
@@ -218,6 +217,7 @@ main {
     width: 200px;
     height: 100%;
     padding: 20px;
+    display: inline;
     border-radius: 15px;
     background-color: #fff;
     text-align: center;
