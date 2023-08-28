@@ -132,7 +132,7 @@ body {
     height: auto;
     line-height: auto;
     padding: 0px;
-    /* background-color: #f7f7f7; */
+    background-color: #e4e4e4;
 }
 
 .news-sec2 {
@@ -407,7 +407,6 @@ body {
 
 .menu-img img:hover {
     transform: scale(1.2);
-    overflow: hidden;
 }
 
 .menu-title {
