@@ -1,0 +1,12 @@
+#section1 {
+    width: 40%;
+    height: 800px;
+    float: left;
+    background-color: gray;
+}
+
+#section2 {
+    width: 60%;
+    height: 800px;
+    float: left;
+}
