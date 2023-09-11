@@ -163,8 +163,8 @@ body {
 /* Newsletter section inside */
 .news-logo {
     width: 300px;
-    height: 60px;
-    line-height: 60px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     display: inline-block;
     vertical-align: middle;
@@ -186,13 +186,12 @@ body {
 
 .news-footer-grp {
     width: 100%;
-    height: auto;
     display: inline-block;
-    vertical-align: middle;
     line-height: normal;
+    vertical-align: middle;
     text-align: center;
-    position: relative;
-    bottom: 15px;
+    /* position: relative;
+    bottom: 15px; */
 }
 
 .news-f-sec1 {
@@ -369,7 +368,7 @@ body {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    color: #000;
+    color: #1e4d98;
 }
 
 .special-menu-h2 {
