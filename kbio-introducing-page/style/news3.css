@@ -431,6 +431,19 @@ body {
     background-color: #303030;
 }
 
+.img-desc-group {
+    width: 300px;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-desc-group .img-desc {
+    font-weight: 300;
+}
+
 .menu-price strong {
     font-size: 25px;
 }
