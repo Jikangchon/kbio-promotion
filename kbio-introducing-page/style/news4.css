@@ -450,16 +450,17 @@ body {
 
 .special-title-group {
     width: 100%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-bottom: 80px;
     color: #462f16;
-    padding: 0px 100px;
+    padding: 0px 0px;
 }
 
 .special-title2 {
     font-size: 20px;
     font-weight: 300;
     letter-spacing: 10px;
+    color: #232f61;
 }
 
 .special-title {
@@ -508,6 +509,7 @@ body {
     margin: 35px 0px;
     padding: 0;
     font-size: 27px;
+    color: #fff;
 }
 
 .menu-list .price {
@@ -516,4 +518,62 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
+    color: #d7dfff;
+}
+
+
+/* Event Paragraph */
+.event-box {
+    margin: 30px 60px;
+    padding: 20px 60px;
+    border-radius: 15px;
+    background-color: #2d2f4e;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.event-box .event-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #b4bfeb;
+}
+
+.event-box .event-p1 {
+    font-size: 17px;
+    margin: 15px 0px;
+    color: #b8c1d6;
+}
+
+.event-box .event-p2 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #b8c1d6;
+}
+
+.event-box .highlight {
+    font-size: 18px;
+    color: #96e1ff;
+}
+
+.event-box-lightColor {
+    background-color: #5a5b77;
+}
+
+.event-box .product-desc {
+    font-size: 15px;
+    color: #c6d1ff;
+    margin-top: 15px;
+}
+
+.order-part {
+    margin-bottom: 30px;
+}
+
+.call-text {
+    font-size: 32px;
+    color: #2037AC;
+}
+
+.order-part .question {
+    font-size: 25px;
+    color: #000;
 }
