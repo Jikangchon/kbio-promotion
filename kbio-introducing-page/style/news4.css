@@ -565,15 +565,31 @@ body {
 }
 
 .order-part {
+    width: 100%;
     margin-bottom: 30px;
+    padding: 0px 190px;
 }
 
 .call-text {
     font-size: 32px;
-    color: #2037AC;
+    color: #39416b;
 }
 
 .order-part .question {
-    font-size: 25px;
-    color: #000;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 15px;
+    padding: 25px 20px;
+    border-radius: 20px;
+    background-color: #39416b;
+}
+
+.order-part .question a {
+    font-weight: bold;
+    color: #c2ccff;
+    text-decoration: none;
+    background-color: #282e4d;
+    margin-left: 20px;
+    padding: 12px 20px;
+    border-radius: 12px;
 }
