@@ -1,8 +1,10 @@
 #section1 {
     width: 100%;
-    height: 700px;
-    line-height: 700px;
+    height: auto;
+    line-height: auto;
     background-color: #101c30;
+    overflow: scroll;
+    padding: 50px 0px;
 }
 
 #section1-1 {
