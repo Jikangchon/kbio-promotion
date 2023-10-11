@@ -1,6 +1,7 @@
 #section1 {
     width: 100%;
-    height: 900px;
+    height: 700px;
+    line-height: 700px;
     background-color: #101c30;
 }
 
@@ -124,8 +125,9 @@ video {
 
 #section1 .section-group {
     width: 100%;
-    height: 900px;
-    line-height: 900px;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
     text-align: center;
 }
 
@@ -384,4 +386,24 @@ video {
 .img-icon img {
     width: 100%;
     text-align: center;
+}
+
+
+/* box item */
+#section1 .box-item-group {
+    display: inline-block;
+    height: 500px;
+    line-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+}
+
+#section1 .box-item {
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #fff;
 }
