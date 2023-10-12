@@ -3,7 +3,7 @@
     height: auto;
     line-height: auto;
     background-color: #101c30;
-    overflow: scroll;
+    overflow: hidden;
     padding: 50px 0px;
 }
 
