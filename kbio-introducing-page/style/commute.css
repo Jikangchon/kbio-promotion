@@ -1,0 +1,84 @@
+.bottom-menu {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+#header-title {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    padding:10px 20px;
+    background-color: #fff;
+
+    justify-content: space-between;
+    position: fixed;
+    top: 60;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#header-title .h-title-box {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 0px 8px;
+}
+
+.button-grp {
+    width: 25%;
+    height: auto;
+    line-height: auto;
+    text-align: center;
+    margin-top: 12px;
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h-txt-grp {
+    width: 50%;
+    height: auto;
+    line-height: 70px;
+    float: left;
+    padding: 0px 20px;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px 15px;
+    margin: 0px 10px;
+    border-radius: 12px;
+    border: 0px;
+    color: #252525;
+    background-color: #ececec;
+    text-decoration: none;
+    float: left;
+    border: 1px solid #ececec;
+
+    transition: 0.2s;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #1573ff;
+    border: 4px solid #1573ff;
+}
+
+.button-grp img {
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.h-txt-grp h1 {
+    color: #000;
+    font-weight: 400;
+    font-size: 27px;
+    letter-spacing: 0.5px;
+}
