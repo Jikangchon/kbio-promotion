@@ -21,9 +21,7 @@
 
 #header-title .h-title-box {
     width: 100%;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
+    height: 100%;
     padding: 0px 8px;
 }
 
@@ -41,10 +39,9 @@
 
 .h-txt-grp {
     width: 50%;
-    height: auto;
+    height: 100%;
     line-height: 70px;
-    float: left;
-    padding: 0px 20px;
+    padding: 0px 50px;
 }
 
 .button {
@@ -77,6 +74,8 @@
 }
 
 .h-txt-grp h1 {
+    display: inline-block;
+    vertical-align: middle;
     color: #000;
     font-weight: 400;
     font-size: 27px;
