@@ -81,3 +81,23 @@
     font-size: 27px;
     letter-spacing: 0.5px;
 }
+
+
+/* Google Calendar */
+#calendar-section {
+    width: 100%;
+    height: 100%;
+    margin: 100px 0px;
+    padding: 50px 0px;
+
+    background-color: pink;
+}
+
+#calendar-section iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid #929292;
+    border-radius: 8px;
+}
+
