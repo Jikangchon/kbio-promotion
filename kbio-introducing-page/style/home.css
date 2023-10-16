@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     line-height: auto;
-    background-color: #101c30;
+    /* background-color: #101c30; */
     overflow: hidden;
     padding: 50px 0px;
 }
@@ -17,7 +17,7 @@
     height: 100%;
     line-height: auto;
     padding: 50px 150px;
-    background-color: #f7f7f7;
+    background-color: #bacada;
     float: left;
 }
 
@@ -35,7 +35,7 @@
     height: 100%;
     line-height: auto;
     padding: 100px 180px;
-    background-color: #f8f8f8;
+    background-color: #8799af;
     float: left;
     overflow: hidden;
 }
@@ -45,7 +45,7 @@
     height: 100%;
     line-height: auto;
     padding: 100px 180px;
-    background-color: #f8f8f8;
+    background-color: #8799af;
     float: left;
 }
 
@@ -399,7 +399,7 @@ video {
 
 #section1 .section-title h1 {
     font-size: 35px;
-    color: #fff;
+    color: #f3f3f3;
 }
 
 
@@ -422,7 +422,7 @@ video {
     border-radius: 15px;
     overflow: hidden;
     padding: 25px;
-    background-color: #fff;
+    background-color: #ececec;
 }
 
 #section1 .box-item .box-img {

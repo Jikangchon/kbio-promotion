@@ -731,7 +731,7 @@
 }
 
 
-@media screen and (max-width: 1092px) {
+/* @media screen and (max-width: 1092px) {
     * {
         box-sizing: border-box;
         font-family: 'Noto Sans KR', sans-serif;
@@ -953,4 +953,4 @@
     .section-box h1 {
         font-size: 25px;
     }
-}
+} */

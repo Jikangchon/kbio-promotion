@@ -10,10 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/main2.css">
     <link rel="stylesheet" href="./style/home.css">
-    <link rel="stylesheet" href="./style/mobile.css" media="screen and (max-width: 1092px)">
-    <link rel="stylesheet" href="./style/mobile.css" media="screen and (max-width: 900px)">
-    <link rel="stylesheet" href="./style/mobile.css" media="screen and (max-width: 660px)">
-    <link rel="stylesheet" href="./style/iphone.css">
+    <!-- <link rel="stylesheet" href="./style/mobile.css" media="screen and (max-width: 1092px)"> -->
+    <!-- <link rel="stylesheet" href="./style/mobile.css" media="screen and (max-width: 900px)">
+    <link rel="stylesheet" href="./style/mobile.css" media="screen and (max-width: 660px)"> -->
+    <!-- <link rel="stylesheet" href="./style/iphone.css"> -->
     <script src="https://kit.fontawesome.com/ce589813f3.js" crossorigin="anonymous"></script>
     <script>
         $('#menu-btn').click(function(){
@@ -23,233 +23,251 @@
     <title>케이바이오솔루션 - Home</title>
 </head>
 <body>
-    <header id="header" class="header-color">
-        <div class="logo-main">
-            <a href="index.html" title="KBIO Solutions"><img src="./images/kbio-wh-logo.png" alt="KBIO Logo" width="200"></a>
-        </div>
-        <nav id="navBar">
-            <a href="#" id="menu-btn" class="navBar_toggleBtn">
-                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
-            </a>
-            <ul id="list" class="navBar_menu">
-                <li><a href="press-page.html">언론보도</a></li>
-                <li><a href="page1.html">뉴스레터</a></li>
-                <!-- <li><a href="promotion.html">프로모션</a></li> -->
-                <li><a href="team.html">회사 소개</a></li>
-                <li><a href="#">서비스 소개</a></li>
-                <!-- <li><a href="website-introduce.html">웹사이트</a></li> -->
-                <!-- <li><a href="page3.html">Notice</a></li> -->
-                <!-- <li><a href="page4.html">Contact</a></li> -->
-            </ul>
-        </nav>
-    </header>
+    <div class="web-size">
+        <header id="header" class="header-color">
+            <div class="logo-main">
+                <a href="index.html" title="KBIO Solutions"><img src="./images/kbio-wh-logo.png" alt="KBIO Logo" width="200"></a>
+            </div>
+            <nav id="navBar">
+                <a href="#" id="menu-btn" class="navBar_toggleBtn">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </a>
+                <ul id="list" class="navBar_menu">
+                    <li><a href="press-page.html">언론보도</a></li>
+                    <li><a href="page1.html">뉴스레터</a></li>
+                    <!-- <li><a href="promotion.html">프로모션</a></li> -->
+                    <li><a href="team.html">회사 소개</a></li>
+                    <li><a href="#">서비스 소개</a></li>
+                    <!-- <li><a href="website-introduce.html">웹사이트</a></li> -->
+                    <!-- <li><a href="page3.html">Notice</a></li> -->
+                    <!-- <li><a href="page4.html">Contact</a></li> -->
+                </ul>
+            </nav>
+        </header>
+    </div>
     <main>
-        <section id="section1">
-            <div class="section-group">
-                <div class="section-title">
-                    <h1>KBIO 임직원을 위한 업무 관리 시스템입니다.</h1>
-                </div>
-                <div class="box-item-group">
-                    <div class="box-item">
-                        <div class="box-img">
-                            <img src="./images/vacation.jpg" alt="box-image">
-                        </div>
-                        <div class="text-box">
-                            <h1>휴가/반차 & 출퇴근 기록</h1>
-                            <button id="block">
-                                <a href="#">준비 중</a>
-                            </button>
-                        </div>
+        <div class="web-size">
+            <section id="section1">
+                <div class="section-group">
+                    <div class="section-title">
+                        <h1>KBIO 임직원을 위한 업무 관리 시스템입니다.</h1>
                     </div>
-                    <div class="box-item">
-                        <div class="box-img">
-                            <img src="./images/calendar-pc.jpg" alt="box-image">
-                        </div>
-                        <div class="text-box">
-                            <h1>23 KBIO Calendar</h1>
-                            <button id="page-btn">
-                                <a href="https://calendar.google.com/calendar/u/0?cid=Y19hbHFlcWZydWIxb2UzZm85cDNlajZrODR2OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank">페이지 바로가기</a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="section-group-txt">
-                    <h3>Welcome to</h3>
-                    <h1>KBIO Solutions</h1>
-                    <p class="p1">
-                        FDA, CE 인증 컨설팅, CRO 임상 의뢰: 02-597-2700
-                    </p>
-                    <p class="p2">
-                        본 홈페이지를 이용하실 경우 PC에서 접속하시는 것을 권장드립니다.<br>
-                        모바일 버전은 준비 중에 있습니다.
-                    </p>
-                </div> -->
-            </div>
-        </section>
-        <section id="section2">
-            <div class="section-group2">
-                <h1 class="main-txt">의료기기 FDA 510(k),<br>MDR CE 컨설팅 및<br>임상시험 진행이 필요하신가요?</h1>
-                <h3>케이바이오솔루션은 의료기기 관련<br>인허가 컨설팅 및 임상시험 진행 서비스를 제공합니다.</h3>
-            </div>
-        </section>
-        <section id="section2-1">
-            <div class="section-group2 section-bg2">
-                <div class="section-box2">
-                    <h1 class="sec2-1_txt1">의료기기 FDA 인허가 컨설팅, CRO 임상시험관리</h1>
-                    <div class="linkbtn-group">
-                        <a href="#" class="linkbtn">컨설팅 의뢰</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="section3">
-            <div class="section-group3">
-                <div class="titleGroup">
-                    <h1 class="sec-grp3-date">2023년 10월</h1>
-                    <h1 class="sec-grp3-update-txt">UPDATE</h1>
-                </div>
-                <div class="section-box">
-                    <ul>
-                        <li>서울 교대역 사무소 글로벌 팀구성</li>
-                        <li>FDA 15개 FDA 510(k) 승인심사 진행</li>
-                        <li>천안 의료기기 전임상 GLP 동물시험센터 개설</li>
-                        <li>미국 UCLA 임상완료, SUNY 뉴욕대 임상진행, 식약처 신약 2상 임상 승인</li>
-                        <li>존슨앤존슨 본사 MDR CE 승인 달성​</li>
-                        <li>미국 실리콘밸리 KBIO Cafe 오픈</li>
-                        <li>의료기기 기업들 유튜브 IR 투자홍보 동영상 제작 서비스</li>
-                        <li>서울 교대역 사무소 506호에서 701, 702, 709호로 확장 이전</li>
-                        <li>KBIO 언론보도 페이지 추가</li>
-                        <li>KBIO NEWS 웹사이트 개설</li>
-                        <li>KBIO 프로모션 홈페이지 개설</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section id="section4">
-            <div class="section-group4">
-                <h1 class="third-section-title-txt">FDA, MDR CE, 인허가 서비스 소개</h1>
-                <div class="section-box">
-                    <h1>미국 FDA 인허가 및 미국 현지 임상시험 CRO 서비스</h1>
-                    <p>
-                        FDA 허가 컨설팅: FDA 510(k) 취득은 미국 시장에 의료기기를 시판하기 위한 필수 관문입니다. 
-                        미국내에서 10여년간 쌓아온 인허가 경력과 노하우를 바탕으로 고객사의 미국 FDA 허가를 효과적으로 
-                        달성할 수 있도록 체계적인 계획수립과 그에 이은 허가취득을 도와드립니다. 
-                        또한 미국 인허가 및 마케팅 효과 제고에 필요한 미국 임상연구를 미국 현지 병원과 국내병원에서 
-                        동시에 진행하는 미국, 국내 CRO 서비스를 제공합니다.
-                    </p>
-                </div>
-                <div class="section-box">
-                    <h1>유럽 연합 ISO 13485 (2016) 인증 및<br>CE Mark/MDR 인허가 서비스</h1>
-                    <p>
-                        유럽 연합 인증 기관 (Notified Body)의 제조소에 대한 ISO 13485 (2016) 품질관리 
-                        시스템 인증및 의료기기의 CE Mark 인증 취득은, 유럽 연합 시장에 의료기기를 시판하기 위해 
-                        통과해야 하는 필수 절차입니다. 세계 최대 단일 의료기기시장인 유럽연합에 고객사의 시장진입 
-                        목표를 달성할 수 있도록 2017년에 개정공표된 MDR에 부합하는 기술문서 작성과 품질관리 
-                        시스템 확립을 도와드립니다.
-                    </p>
-                </div>
-                <div class="section-box">
-                    <h1>의료기기, ​의약품 동물 GLP 시험소, Waymaker 개설</h1>
-                    <p>
-                        예전과 달리 특별히 인체 장기간 삽입형 의료기기, 영구적 이식형 의료기기의
-                        전임상 안전성 검증을 위해 미국 FDA및 유럽 CE MDR 인증에서 동물 GLP시험수행에 대한
-                        요건이 강화되고 있습니다. 또한 의약품의 전임상 검증에서도 동물 안전성 시험진행이 필요합니다.
-                        케이바이오의 자매사 (주)웨이메이커에서 단국대학교 위치한 천안 시험센터를 통하여
-                        의료기기 동물 전임상 시험및 성능시험을 FDA, CE MDR 인증 취득을 위해서 시험설계하여 진행합니다.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section id="section5">
-            <div class="section-group5">
-                <div class="section-part1">
-                    <div class="text-box">
-                        <h1>의료기기 FDA 510(k),<br>MDR CE 인증대행 &<br>한국, 미국 임상시험<br>CRO 서비스에 대한 영상</h1>
-                    </div>
-                    <div class="yt-video">
-                        <iframe src="https://www.youtube.com/embed/WG8fkbw--dI"
-                        autoplay="1&loop=1"
-                        title="YouTube video player" frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="section-part2">
-                    <div class="text-box">
-                        <h1>1. 의료기기 글로벌 인허가 컨설팅:</h1>
-                        <p>
-                            K-Bio Solutions는 의료기기 미국 FDA 510(k) 인허가,<br>
-                            유럽 MDR CE, 중국, 식약처 인허가 취득을 돕는<br>
-                            전문 컨설팅 회사로써 45개 의료기기 제조사와 계약 체결
-                        </p>
-                    </div>
-                    <div class="text-box">
-                        <h1>2. CRO 서비스: 임상연구 프로토콜 설계,<br>임상 모니터링</h1>
-                        <p>
-                            한국 및 미국에서 해외 임상시험을 설계할 수 있는<br>
-                            국내 유일의 CRO로써,<br>
-                            글로벌 임상시험 서비스를 제공합니다.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="section6">
-            <div class="section-group6">
-                <div class="group-box">
-                    <div class="group-box-content">
-                        <div class="box-content">
-                            <h1>50</h1>
-                            <p>
-                                케이바이오솔루션이 2016년<br>설립이후 인허가 컨설팅,<br>임상시험 계약한 제조사 수
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="group-box">
-                    <div class="group-box-content">
-                        <div class="box-content">
-                            <h1>15</h1>
-                            <p>
-                                2020년 이후 FDA 510(k)와<br>FDA Pre-Submission<br>심사제출 건 수
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="group-box">
-                    <div class="group-box-content">
-                        <div class="box-content">
-                            <div class="img-icon">
-                                <img src="./images/2flag-icon2_00000.png" alt="이미지 아이콘">
+                    <div class="box-item-group">
+                        <div class="box-item">
+                            <div class="box-img">
+                                <img src="./images/vacation.jpg" alt="box-image">
                             </div>
+                            <div class="text-box">
+                                <h1>휴가/반차 & 출퇴근 기록</h1>
+                                <button id="block">
+                                    <a href="#">준비 중</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="box-img">
+                                <img src="./images/calendar-pc.jpg" alt="box-image">
+                            </div>
+                            <div class="text-box">
+                                <h1>23 KBIO Calendar</h1>
+                                <button id="page-btn">
+                                    <a href="https://calendar.google.com/calendar/u/0?cid=Y19hbHFlcWZydWIxb2UzZm85cDNlajZrODR2OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank">페이지 바로가기</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="section-group-txt">
+                        <h3>Welcome to</h3>
+                        <h1>KBIO Solutions</h1>
+                        <p class="p1">
+                            FDA, CE 인증 컨설팅, CRO 임상 의뢰: 02-597-2700
+                        </p>
+                        <p class="p2">
+                            본 홈페이지를 이용하실 경우 PC에서 접속하시는 것을 권장드립니다.<br>
+                            모바일 버전은 준비 중에 있습니다.
+                        </p>
+                    </div> -->
+                </div>
+            </section>
+        </div>
+        <div class="web-size">
+            <section id="section2">
+                <div class="section-group2">
+                    <h1 class="main-txt">의료기기 FDA 510(k),<br>MDR CE 컨설팅 및<br>임상시험 진행이 필요하신가요?</h1>
+                    <h3>케이바이오솔루션은 의료기기 관련<br>인허가 컨설팅 및 임상시험 진행 서비스를 제공합니다.</h3>
+                </div>
+            </section>
+        </div>
+        <div class="web-size">
+            <section id="section2-1">
+                <div class="section-group2 section-bg2">
+                    <div class="section-box2">
+                        <h1 class="sec2-1_txt1">의료기기 FDA 인허가 컨설팅, CRO 임상시험관리</h1>
+                        <div class="linkbtn-group">
+                            <a href="#" class="linkbtn">컨설팅 의뢰</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="web-size">
+            <section id="section3">
+                <div class="section-group3">
+                    <div class="titleGroup">
+                        <h1 class="sec-grp3-date">2023년 10월</h1>
+                        <h1 class="sec-grp3-update-txt">UPDATE</h1>
+                    </div>
+                    <div class="section-box">
+                        <ul>
+                            <li>서울 교대역 사무소 글로벌 팀구성</li>
+                            <li>FDA 15개 FDA 510(k) 승인심사 진행</li>
+                            <li>천안 의료기기 전임상 GLP 동물시험센터 개설</li>
+                            <li>미국 UCLA 임상완료, SUNY 뉴욕대 임상진행, 식약처 신약 2상 임상 승인</li>
+                            <li>존슨앤존슨 본사 MDR CE 승인 달성​</li>
+                            <li>미국 실리콘밸리 KBIO Cafe 오픈</li>
+                            <li>의료기기 기업들 유튜브 IR 투자홍보 동영상 제작 서비스</li>
+                            <li>서울 교대역 사무소 506호에서 701, 702, 709호로 확장 이전</li>
+                            <li>KBIO 언론보도 페이지 추가</li>
+                            <li>KBIO NEWS 웹사이트 개설</li>
+                            <li>KBIO 프로모션 홈페이지 개설</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="web-size">
+            <section id="section4">
+                <div class="section-group4">
+                    <h1 class="third-section-title-txt">FDA, MDR CE, 인허가 서비스 소개</h1>
+                    <div class="section-box">
+                        <h1>미국 FDA 인허가 및 미국 현지 임상시험 CRO 서비스</h1>
+                        <p>
+                            FDA 허가 컨설팅: FDA 510(k) 취득은 미국 시장에 의료기기를 시판하기 위한 필수 관문입니다. 
+                            미국내에서 10여년간 쌓아온 인허가 경력과 노하우를 바탕으로 고객사의 미국 FDA 허가를 효과적으로 
+                            달성할 수 있도록 체계적인 계획수립과 그에 이은 허가취득을 도와드립니다. 
+                            또한 미국 인허가 및 마케팅 효과 제고에 필요한 미국 임상연구를 미국 현지 병원과 국내병원에서 
+                            동시에 진행하는 미국, 국내 CRO 서비스를 제공합니다.
+                        </p>
+                    </div>
+                    <div class="section-box">
+                        <h1>유럽 연합 ISO 13485 (2016) 인증 및<br>CE Mark/MDR 인허가 서비스</h1>
+                        <p>
+                            유럽 연합 인증 기관 (Notified Body)의 제조소에 대한 ISO 13485 (2016) 품질관리 
+                            시스템 인증및 의료기기의 CE Mark 인증 취득은, 유럽 연합 시장에 의료기기를 시판하기 위해 
+                            통과해야 하는 필수 절차입니다. 세계 최대 단일 의료기기시장인 유럽연합에 고객사의 시장진입 
+                            목표를 달성할 수 있도록 2017년에 개정공표된 MDR에 부합하는 기술문서 작성과 품질관리 
+                            시스템 확립을 도와드립니다.
+                        </p>
+                    </div>
+                    <div class="section-box">
+                        <h1>의료기기, ​의약품 동물 GLP 시험소, Waymaker 개설</h1>
+                        <p>
+                            예전과 달리 특별히 인체 장기간 삽입형 의료기기, 영구적 이식형 의료기기의
+                            전임상 안전성 검증을 위해 미국 FDA및 유럽 CE MDR 인증에서 동물 GLP시험수행에 대한
+                            요건이 강화되고 있습니다. 또한 의약품의 전임상 검증에서도 동물 안전성 시험진행이 필요합니다.
+                            케이바이오의 자매사 (주)웨이메이커에서 단국대학교 위치한 천안 시험센터를 통하여
+                            의료기기 동물 전임상 시험및 성능시험을 FDA, CE MDR 인증 취득을 위해서 시험설계하여 진행합니다.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="web-size">
+            <section id="section5">
+                <div class="section-group5">
+                    <div class="section-part1">
+                        <div class="text-box">
+                            <h1>의료기기 FDA 510(k),<br>MDR CE 인증대행 &<br>한국, 미국 임상시험<br>CRO 서비스에 대한 영상</h1>
+                        </div>
+                        <div class="yt-video">
+                            <iframe src="https://www.youtube.com/embed/WG8fkbw--dI"
+                            autoplay="1&loop=1"
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="section-part2">
+                        <div class="text-box">
+                            <h1>1. 의료기기 글로벌 인허가 컨설팅:</h1>
                             <p>
-                                케이바이오<br>임상진행 국가
+                                K-Bio Solutions는 의료기기 미국 FDA 510(k) 인허가,<br>
+                                유럽 MDR CE, 중국, 식약처 인허가 취득을 돕는<br>
+                                전문 컨설팅 회사로써 45개 의료기기 제조사와 계약 체결
+                            </p>
+                        </div>
+                        <div class="text-box">
+                            <h1>2. CRO 서비스: 임상연구 프로토콜 설계,<br>임상 모니터링</h1>
+                            <p>
+                                한국 및 미국에서 해외 임상시험을 설계할 수 있는<br>
+                                국내 유일의 CRO로써,<br>
+                                글로벌 임상시험 서비스를 제공합니다.
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <footer id="footer">
-        <div class="footer-group">
-            <div class="f-sec1">
-                <div class="logo-main2">
-                    <a href="index.html"><img src="./images/kbio-wh-logo.png" alt="KBIO Logo"></a>
-                </div>
-            </div>
-            <div class="f-sec2">
-                <div class="f-sec2-grp">
-                    <p class="f-location">
-                        한국사무소: 서울 서초구 서초중앙로 125 (로이어즈타워)<br>
-                        USA: Suite 111 1820 Gateway Drive, San Mateo California 94404
-                    </p>
-                    <p class="f-copy">
-                        &copy; Copyright 2023 KBIO Solutions All right reserved.
-                    </p>
-                </div>
-            </div>
+            </section>
         </div>
-    </footer>
+        <div class="web-size">
+            <section id="section6">
+                <div class="section-group6">
+                    <div class="group-box">
+                        <div class="group-box-content">
+                            <div class="box-content">
+                                <h1>50</h1>
+                                <p>
+                                    케이바이오솔루션이 2016년<br>설립이후 인허가 컨설팅,<br>임상시험 계약한 제조사 수
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-box">
+                        <div class="group-box-content">
+                            <div class="box-content">
+                                <h1>15</h1>
+                                <p>
+                                    2020년 이후 FDA 510(k)와<br>FDA Pre-Submission<br>심사제출 건 수
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-box">
+                        <div class="group-box-content">
+                            <div class="box-content">
+                                <div class="img-icon">
+                                    <img src="./images/2flag-icon2_00000.png" alt="이미지 아이콘">
+                                </div>
+                                <p>
+                                    케이바이오<br>임상진행 국가
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="web-size">
+        <footer id="footer">
+            <div class="footer-group">
+                <div class="f-sec1">
+                    <div class="logo-main2">
+                        <a href="index.html"><img src="./images/kbio-wh-logo.png" alt="KBIO Logo"></a>
+                    </div>
+                </div>
+                <div class="f-sec2">
+                    <div class="f-sec2-grp">
+                        <p class="f-location">
+                            한국사무소: 서울 서초구 서초중앙로 125 (로이어즈타워)<br>
+                            USA: Suite 111 1820 Gateway Drive, San Mateo California 94404
+                        </p>
+                        <p class="f-copy">
+                            &copy; Copyright 2023 KBIO Solutions All right reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

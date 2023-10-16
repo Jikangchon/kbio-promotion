@@ -30,11 +30,23 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #2a3444;
 }
 
 main {
     flex: 1;
     padding-top: 60px;
+}
+
+.web-size {
+    width: 1280px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 15px;
 }
 
 header {
