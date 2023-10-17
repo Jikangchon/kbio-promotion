@@ -4,6 +4,7 @@
     line-height: 350px;
     overflow: hidden;
     padding: 50px;
+    float: left;
     text-align: center;
     background-color: #ececec;
 }
@@ -18,6 +19,12 @@
     font-size: 15px;
     font-weight: 300;
     color: #000;
+}
+
+#default {
+    width: 600px;
+    height: 350px;
+    padding: 50px;
 }
 
 #section1 {
@@ -510,7 +517,6 @@ video {
 /* 로그인 섹션 디자인 */
 .login-group {
     width: 500px;
-    height: 100%;
     background-color: pink;
 }
 

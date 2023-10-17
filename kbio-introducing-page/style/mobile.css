@@ -1,0 +1,10 @@
+@media screen and (min-width: 767px max-width: 910px) {
+    header {
+        width: 100%;
+        height: 60px;
+    }
+
+    #navBar .navBar_menu {
+        display: none;
+    }
+}
