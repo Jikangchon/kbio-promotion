@@ -34,8 +34,14 @@
     width: 100%;
     height: 100%;
     line-height: auto;
-    padding: 100px 180px;
-    background-color: #8799af;
+    padding: 100px 50px;
+
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.3)),
+    url('../images/ios-bg1.jpeg');
+    background-position: center center;
+    background-size: cover;
+
     float: left;
     overflow: hidden;
 }
@@ -44,8 +50,13 @@
     width: 100%;
     height: 100%;
     line-height: auto;
-    padding: 100px 180px;
-    background-color: #8799af;
+    padding: 100px 50px;
+
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.3)),
+    url('../images/silicon-valley-city.jpg');
+    background-position: center center;
+    background-size: cover;
     float: left;
 }
 
@@ -165,7 +176,7 @@ video {
 /* Third Section Part */
 
 .section-group3 {
-    width: 800px;
+    width: 100%;
     height: auto;
     padding: 30px 50px;
     display: block;
@@ -174,12 +185,6 @@ video {
     border-radius: 25px;
     overflow: hidden;
     text-align: center;
-
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.3)),
-    url('../images/ios-bg1.jpeg');
-    background-position: center center;
-    background-size: cover;
 }
 
 
@@ -193,12 +198,6 @@ video {
     border-radius: 25px;
     text-align: center;
     overflow: hidden;
-
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.3)),
-    url('../images/silicon-valley-city.jpg');
-    background-position: center center;
-    background-size: cover;
 }
 
 
@@ -329,7 +328,7 @@ video {
 #section6 {
     width: 100%;
     height: 100%;
-    padding: 30px 50px;
+    padding: 30px 10px;
     float: left;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url('../images/city-building2.jpeg');
