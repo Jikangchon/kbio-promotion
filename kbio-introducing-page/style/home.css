@@ -519,6 +519,11 @@ video {
     filter: brightness(0.9);
 }
 
+.page-btn-color1 {
+    color: #fff;
+    background-color: #21a7a0;
+}
+
 #section1 #block,
 #section1 #block a {
     width: 100%;
@@ -599,4 +604,9 @@ video {
 
 #default .description {
     font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#default .notice {
+    color: #d64949;
 }
