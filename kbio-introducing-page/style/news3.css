@@ -467,6 +467,11 @@ body {
     font-weight: 600;
 }
 
+.special-title .thickness-font {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 
 /* Food Section */
 .food-section {
