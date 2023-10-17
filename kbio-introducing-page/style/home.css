@@ -1,3 +1,25 @@
+#login-section {
+    width: 450px;
+    height: 350px;
+    line-height: 350px;
+    overflow: hidden;
+    padding: 50px;
+    text-align: center;
+    background-color: #ececec;
+}
+
+#login-section h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+#login-section h2 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #000;
+}
+
 #section1 {
     width: 100%;
     height: auto;
@@ -482,4 +504,30 @@ video {
 
     color: #fff;
     text-decoration: none;
+}
+
+
+/* 로그인 섹션 디자인 */
+.login-group {
+    width: 500px;
+    height: 100%;
+    background-color: pink;
+}
+
+.login-box {
+    width: 100%;
+    background-color: orange;
+}
+
+.login-box .login-btn,
+.login-box .register-btn {
+    width: 250px;
+    padding: 8px 50px;
+    margin: 10px 10px;
+    float: left;
+    text-align: center;
+    border-radius: 8px;
+    color: #000;
+    text-decoration: none;
+    background-color: #ffbb01;
 }
