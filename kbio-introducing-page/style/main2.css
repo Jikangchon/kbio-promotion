@@ -98,7 +98,9 @@ header {
     color: rgb(212, 224, 255);
 }
 
-
+#news-menu {
+    display: inline-block;
+}
 
 #footer {
     width: 100%;
