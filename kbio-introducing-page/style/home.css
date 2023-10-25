@@ -129,7 +129,7 @@ video {
 
 .section-group5 {
     width: 100%;
-    padding: 20px 50px;
+    padding: 20px 0px;
 }
 
 .section-part1 {
@@ -176,7 +176,6 @@ video {
     width: 500px;
     height: 320px;
     border-radius: 15px;
-    
 }
 
 .section-part2 {
@@ -257,15 +256,7 @@ video {
     color: #fff;
 }
 
-.section-box {
-    width: 100%;
-    padding: 35px 50px;
-    background-color: #fff;
-    opacity: 75%;
-    border-radius: 27px;
-    margin: 15px 0px;
-    overflow: hidden;
-}
+
 
 .section-box2 {
     width: 100%;
