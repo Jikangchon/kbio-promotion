@@ -3,7 +3,7 @@
 @media screen and (max-width: 855px) {
     .web-size {
         width: 100%;
-        padding: 0px 30px;
+        padding: 0px 5px;
     }
 
     header {
@@ -67,7 +67,7 @@
     }
 
     #section1 .section-title-mobile h1 {
-        font-size: 35px;
+        font-size: 25px;
         color: #f3f3f3;
     }
 
