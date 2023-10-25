@@ -164,6 +164,7 @@
     }
 
     .third-section-title-txt-mobile {
+        display: inline-block;
         font-size: 24px;
         width: 100%;
         padding: 15px 0px;
@@ -342,5 +343,5 @@
 
 /* Newsletter Section Mobile */
 @media screen and (max-width: 855px) {
-    
+
 }
