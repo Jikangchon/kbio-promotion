@@ -317,6 +317,10 @@ video {
     color: #fff;
 }
 
+.sec2-1_txt1-mobile {
+    display: none;
+}
+
 .section-box h1 {
     font-size: 25px;
 }

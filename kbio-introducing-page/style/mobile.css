@@ -97,6 +97,25 @@
         border-radius: 15px;
     }
 
+    .section-box2 {
+        width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 40px 20px;
+        overflow: hidden;
+    }
+
+    .sec2-1_txt1 {
+        display: none;
+    }
+
+    .sec2-1_txt1-mobile {
+        display: inline-block;
+        font-size: 27px;
+        font-weight: 400;
+        color: #fff;
+    }
+
     #section3 {
         width: 100%;
         height: 100%;
