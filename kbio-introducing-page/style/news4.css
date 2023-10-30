@@ -590,8 +590,13 @@ body {
 }
 
 .call-text {
-    font-size: 35px;
+    font-size: 20px;
     color: #39416b;
+}
+
+.phone-num {
+    color: #243796;
+    text-decoration: none;
 }
 
 .order-part .question {
