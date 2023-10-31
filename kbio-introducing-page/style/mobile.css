@@ -2,7 +2,15 @@
 /* Home Mobile */
 @media screen and (max-width: 855px) {
     /* button script */
-
+    .menu-btn {
+        width: 50px;
+        height: 50px;
+        display: block;
+        background-image: url("../images/menu.png");
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
     /* ------------- */
 

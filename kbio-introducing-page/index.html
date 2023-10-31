@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="./style/mobile.css">
     <!-- <link rel="stylesheet" href="./style/iphone.css"> -->
     <script src="https://kit.fontawesome.com/ce589813f3.js" crossorigin="anonymous"></script>
-    <script src="./menu.js">
-
+    <script src="menu.js">
+        document.querySelector('.menu-btn').addEventListener('click', function() {
+            document.querySelector('.navBar_menu').classList.toggle('show');
+        });
     </script>
     <title>케이바이오솔루션 - Home</title>
 </head>
@@ -23,6 +25,7 @@
         <div class="logo-main">
             <a href="index.html" title="KBIO Solutions"><img src="./images/kbio-wh-logo.png" alt="KBIO Logo" width="200"></a>
         </div>
+        <div class="menu-btn"></div>
         <nav id="navBar">
             <ul id="list" class="navBar_menu">
                 <li><a href="press-page.html">언론보도</a></li>
@@ -37,7 +40,7 @@
         </nav>
 
         <!-- Mobile -->
-        
+
     </header>
     <main>
         <div class="web-size">

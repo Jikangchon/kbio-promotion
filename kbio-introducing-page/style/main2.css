@@ -58,6 +58,10 @@ main {
     left: -200%;
 }
 
+.menu-btn {
+    display: none;
+}
+
 
 header {
     width: 100%;
