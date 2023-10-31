@@ -622,3 +622,33 @@ body {
     padding: 5px 20px;
     border-radius: 8px;
 }
+
+.special-title-group .box {
+    padding: 0px 70px;
+}
+
+
+.box img {
+    width: 100%;
+    border-radius: 15px;
+    border: 5px solid #5565a5;
+}
+
+.box h1 {
+    font-size: 25px;
+    margin: 0px;
+    color: #232f61;
+}
+
+.box h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #232f61;
+}
+
+.box h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #232f61;
+}
