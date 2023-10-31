@@ -652,3 +652,9 @@ body {
     font-weight: 400;
     color: #232f61;
 }
+
+
+.news-f-location a {
+    color: #fff;
+    text-decoration: none;
+}
