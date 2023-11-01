@@ -1,6 +1,41 @@
+/* Navigation Bar */
+@media screen and (max-width: 1541px) {
+    header {
+        width: 100%;
+        height: 60px;
+        padding: 0px 0px;
+    }
+
+    #navBar .navBar_menu {
+        display: none;
+    }
+
+    #navBar {
+        padding: 0px;
+    }
+
+    header .logo-main {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* button script */
+    .menu-btn {
+        width: 50px;
+        height: 50px;
+        display: block;
+        background-image: url("../images/menu.png");
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+
 
 /* Home Mobile */
-@media screen and (max-width: 1541px) {
+@media screen and (max-width: 800px) {
     /* button script */
     .menu-btn {
         width: 50px;

@@ -559,10 +559,33 @@ video {
     background-color: #ececec;
 }
 
-#section1 .box-item .box-img {
+#section1 .box-item .box-bg1 {
     width: 100%;
     height: 200px;
     overflow: hidden;
+    background-image: url('../images/EGNYTE-1@2x.png');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 12px;
+}
+
+#section1 .box-item .box-bg2 {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-image: url('../images/calendar-pc.jpg');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 12px;
+}
+
+#section1 .box-item .box-bg3 {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-image: url('../images/vacation.jpg');
+    background-size: cover;
+    background-position: center center;
     border-radius: 12px;
 }
 
