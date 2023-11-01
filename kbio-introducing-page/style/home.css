@@ -25,6 +25,11 @@
     background-color: #fff;
 }
 
+#section .title {
+    font-size: 25px;
+    color: #535353;
+}
+
 
 .newsletter-section-bg {
     width: 100%;

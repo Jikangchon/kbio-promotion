@@ -347,9 +347,14 @@ body {
 }
 
 .divide-line {
-    width: 100%;
+    width: 80%;
+    display: block;
     border: 0.3px solid rgb(0,0,0,0.1);
-    margin: 20px 0px;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .link-btn-blue {
@@ -501,4 +506,53 @@ body {
 .food-collection img:hover {
     transform: scale(0.97);
     overflow: hidden;
+}
+
+#desc-img-box {
+    width: 65%;
+    padding: 0px 80px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#desc-img {
+    width: 100%;
+    border-radius: 20px;
+    margin: 0px;
+    border: 10px solid #C67B63;
+}
+
+.desc-text {
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.desc-img-txt {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #777777;
+}
+
+.desc-title {
+    font-size: 32px;
+    color: #C67B63;
+}
+
+.desc-p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6F3E2F;
+}
+
+.desc-text .promo-txt {
+    font-size: 18px;
+    font-weight: bold;
+    color: #966f62;
+
+    margin-top: 12px;
 }
