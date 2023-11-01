@@ -109,8 +109,8 @@ header {
 
 .submenu > li {
     width: 100%;
-    font-size: 12px;
-    line-height: 50px;
+    height: 100%;
+    font-size: 10px;
     text-align: center;
     background-color: #101c30bb;
 }
@@ -121,12 +121,14 @@ header {
 }
 
 #navBar ul > li:hover {
+    height: auto;
     transition-duration: 0.2s;
     background-color: rgb(25, 43, 85);
 }
 
 #navBar ul > li:hover .submenu {
     height: 100%;
+    overflow: hidden;
     transition-duration: 0.5s;
 }
 
@@ -169,18 +171,23 @@ header {
     padding-right: 50px;
 }
 
+#navBar ul {
+    width: 100%;
+}
+
 #navBar ul li a {
     vertical-align: middle;
     width: 100%;
     height: 60px;
-    line-height: 60px;
+    font-size: 14px;
+    line-height: 65px;
 }
 
-#navBar ul li {
-    width: 150px;
-    line-height: normal;
+#navBar ul > li {
+    width: 170px;
+    line-height: 40px;
     list-style: none;
-    padding: 0; 
+    padding: 0px 0px; 
     text-align: center;
     float: left;
 }
