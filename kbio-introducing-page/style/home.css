@@ -30,17 +30,7 @@
 
 #section .title {
     font-size: 25px;
-    color: #535353;
-}
-
-
-.newsletter-section-bg {
-    width: 100%;
-    height: 100%;
-    background-image: url('../images/laptop-typing.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    margin-bottom: 15px;
 }
 
 .section-box2 .news-box {

@@ -1,3 +1,23 @@
+.newsletter-section-bg1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/laptop-typing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.newsletter-section-bg2 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/laptop-typing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* ------------------------- */
+
 .newsletter-box-bg1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/stock-lunchBox.jpg');
     background-size: 100%;
@@ -54,4 +74,15 @@
 .newsletter-box-bg4:hover {
     background-size: 105%;
     filter: brightness(0.9);
+}
+
+
+/* ------------------------ */
+
+.section-title-color1 {
+    color: #535353;
+}
+
+.section-title-color2 {
+    color: #fff;
 }
