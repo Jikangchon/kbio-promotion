@@ -109,7 +109,6 @@ header {
 
 .submenu > li {
     width: 100%;
-    height: 100%;
     font-size: 10px;
     text-align: center;
     background-color: #101c30bb;
@@ -176,15 +175,15 @@ header {
 }
 
 #navBar ul li a {
-    vertical-align: middle;
-    width: 100%;
     height: 60px;
     font-size: 14px;
     line-height: 65px;
+    vertical-align: middle;
+    padding: 0px 5px;
 }
 
 #navBar ul > li {
-    width: 170px;
+    width: 150px;
     line-height: 40px;
     list-style: none;
     padding: 0px 0px; 
