@@ -1,11 +1,27 @@
 .newsletter-box-bg1 {
     background-image: url('../images/stock-lunchBox.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
     background-position: center center;
     transition: 0.2s;
 }
 
 .newsletter-box-bg1:hover {
     background-size: 105%;
+    filter: brightness(0.9);
+}
+
+/* ------------------------- */
+
+.newsletter-box-bg2 {
+    background-image: url('../images/earth.jpeg');
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.2s;
+}
+
+.newsletter-box-bg2:hover {
+    background-size: 260%;
     filter: brightness(0.9);
 }
