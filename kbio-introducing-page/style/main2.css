@@ -120,13 +120,13 @@ header {
 }
 
 .navBar_menu > li:hover {
-    height: 100%;
+    height: auto;
     transition-duration: 0.2s;
     background-color: rgb(18, 31, 60);
 }
 
-.navBar_menu ul > li:hover .submenu {
-    height: 100%;
+.navBar_menu > li:hover .submenu {
+    height: auto;
     overflow: hidden;
     transition-duration: 0.5s;
 }
