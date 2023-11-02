@@ -119,13 +119,13 @@ header {
     overflow: hidden;
 }
 
-#navBar ul > li:hover {
-    height: auto;
+.navBar_menu > li:hover {
+    height: 100%;
     transition-duration: 0.2s;
-    background-color: rgb(25, 43, 85);
+    background-color: rgb(18, 31, 60);
 }
 
-#navBar ul > li:hover .submenu {
+.navBar_menu ul > li:hover .submenu {
     height: 100%;
     overflow: hidden;
     transition-duration: 0.5s;
@@ -170,7 +170,7 @@ header {
     padding-right: 50px;
 }
 
-#navBar ul {
+.navBar_menu {
     width: 100%;
 }
 
@@ -182,8 +182,9 @@ header {
     padding: 0px 5px;
 }
 
-#navBar ul > li {
+.navBar_menu > li {
     width: 150px;
+    height: 60px;
     line-height: 40px;
     list-style: none;
     padding: 0px 0px; 
