@@ -8,25 +8,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style/main2.css">
     <link rel="stylesheet" href="../style/news3.css">
+    <link rel="stylesheet" href="../style/mobile.css">
     <script src="../copy.js"></script>
     <title>KBIO Newsletter Editor</title>
 </head>
 <body>
-    <header id="header">
+    <header id="header" class="header-color">
         <div class="logo-main">
-            <a href="../index.html"><img src="../images/kbio-wh-logo.png" alt="KBIO Logo" width="200"></a>
+            <a href="../index.html" title="KBIO Solutions"><img src="../images/kbio-wh-logo.png" alt="KBIO Logo" width="200"></a>
         </div>
+        <div class="menu-btn"></div>
         <nav id="navBar">
-            <ul>
-                <li><a href="press-page.html">언론보도</a></li>
-                <li><a href="../page1.html">뉴스레터</a></li>
-                <!-- <li><a href="../promotion.html">프로모션</a></li> -->
-                <li><a href="/team.html">회사 소개</a></li>
-                <li><a href="#">서비스 소개</a></li>
+            <ul id="list" class="navBar_menu">
+                <li>
+                    <a href="../team.html">회사 소개</a>
+                    <ul class="submenu">
+                        <li><a href="#">Our Clients</a></li>
+                        <li><a href="#">Mission Statement</a></li>
+                        <li><a href="#">오시는 길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">CRO 임상시험 서비스</a>
+                </li>
+                <li>
+                    <a href="#">FDA, MDR CE, 인허가</a>
+                    <ul class="submenu">
+                        <li><a href="#">미국 FDA 인허가</a></li>
+                        <li><a href="#">유럽 MDR CE</a></li>
+                        <li><a href="#">동물 GLP 시험</a></li>
+                        <li><a href="#">KBIO 영상제작 업력</a></li>
+                        <li><a href="#">고객사 홈페이지 제작</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">컨설팅 CRO 의뢰</a>
+                </li>
+                <li>
+                    <a href="../press-page.html">언론보도</a>
+                </li>
+                <li id="news-menu"><a href="../page1.html">뉴스레터</a></li>
+                <li id="news-menu"><a href="#">입사지원</a></li>
+                <!-- <li><a href="promotion.html">프로모션</a></li> -->
+                <!-- <li><a href="website-introduce.html">웹사이트</a></li> -->
                 <!-- <li><a href="page3.html">Notice</a></li> -->
                 <!-- <li><a href="page4.html">Contact</a></li> -->
             </ul>
         </nav>
+
+        <!-- Mobile -->
+
     </header>
     <main class="editor-main">
         <section id="header-title">
