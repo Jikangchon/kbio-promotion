@@ -471,6 +471,9 @@ body {
 
 
 @media screen and (max-width: 500px) {
+    #section {
+        width: 100%;
+    }
 
     #section .section-box {
         width: 100%;
