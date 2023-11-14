@@ -38,6 +38,10 @@ main {
     padding-top: 60px;
 }
 
+#newsletter-main {
+    padding: 0px;
+}
+
 .web-size {
     width: 1000px;
     height: auto;
