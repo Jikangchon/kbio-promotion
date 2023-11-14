@@ -6,10 +6,13 @@ body {
 }
 
 
-#section1-1 {
+#section {
     width: 100%;
     height: auto;
     padding: 20px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section1-title {
@@ -101,11 +104,12 @@ body {
 #newsletter-section {
     width: 800px;
     height: 100%;
+    padding: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 8px;
-    background-color: #EFEFEF;
+    border-radius: 24px;
+    background-color: #e2e2e2;
     overflow: hidden;
 
     -webkit-user-select: all;
@@ -118,6 +122,8 @@ body {
     width: 100%;
     height: 150px;
     line-height: 150px;
+    border-radius: 16px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -133,7 +139,11 @@ body {
     width: 100%;
     height: auto;
     line-height: auto;
-    padding: 100px 80px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 16px;
     background-color: #f7f7f7;
 }
 
@@ -159,6 +169,8 @@ body {
     height: 200px;
     line-height: 200px;
     padding: 0px 30px;
+    border-radius: 16px;
+    margin-top: 10px;
     background-color: #303030;
 }
 
@@ -173,6 +185,7 @@ body {
 }
 
 .news-logo img {
+    width: 100%;
     display: inline-block;
     line-height: normal;
     vertical-align: middle;
@@ -181,6 +194,21 @@ body {
 }
 
 
+#letter-image {
+    width: 100%;
+    height: 100%;
+    border: 0.7px solid #3030304f;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.content-box {
+    height: 100%;
+}
 
 .news-footer-grp {
     width: 100%;
@@ -214,11 +242,16 @@ body {
 .news-sec-group {
     display: inline-block;
     line-height: normal;
+    vertical-align: middle;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .center {
-    display: block;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
 }
@@ -348,4 +381,61 @@ body {
 
 .news-title3 {
     font-size: 30px;
+}
+
+
+@media screen and (max-width: 500px) {
+    /* Newsletter Section */
+    #newsletter-section {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 24px;
+        background-color: #EFEFEF;
+        overflow: hidden;
+
+        -webkit-user-select: all;
+        -moz-user-select: all;
+        -ms-user-select: all;
+        user-select: all;
+    }
+
+    .news-logo {
+        width: 250px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .news-logo img {
+        width: 100%;
+        display: inline-block;
+        line-height: normal;
+        vertical-align: middle;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .news-sec1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .news-f-sec2 {
+        width: 100%;
+        font-size: 10px;
+        color: #fff;
+        font-weight: 200;
+        margin-top: 5px;
+    }
+    
+    .news-f-sec2 a {
+        color: #fff;
+        text-decoration: none;
+    }
 }
