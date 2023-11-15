@@ -18,8 +18,8 @@
     padding: 30px 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #8a9ba5;
-    border-radius: 12px;
+    background-color: rgba(123, 128, 194, 0.451);
+    border-radius: 26px;
     opacity: 100%;
     
     margin-top: 15px;
@@ -51,8 +51,8 @@
     margin-top: 10px;
     padding: 20px 30px;
     
-    background-color: #2e3464;
-    border-radius: 12px;
+    background-color: #323650;
+    border-radius: 18px;
     text-align: center;
     text-decoration: none;
     color: #fff;
@@ -63,7 +63,8 @@
 
 .linkBox:hover {
     color: #fff;
-    background-color: #424a88;
+    filter: brightness(0.7);
+    background-color: #323650;
     transform: scale(0.99);
-    border-radius: 5px;
+    border-radius: 16px;
 }
