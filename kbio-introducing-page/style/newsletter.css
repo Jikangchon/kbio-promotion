@@ -52,7 +52,7 @@
     padding: 20px 30px;
     
     background-color: #323650;
-    border-radius: 18px;
+    border-radius: 15px;
     text-align: center;
     text-decoration: none;
     color: #fff;
@@ -66,5 +66,5 @@
     filter: brightness(0.7);
     background-color: #323650;
     transform: scale(0.99);
-    border-radius: 16px;
+    border-radius: 26px;
 }
