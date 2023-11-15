@@ -483,6 +483,61 @@ body {
 }
 
 
+/* Article Design */
+.article-title h1 {
+    font-size: 28px;
+    text-align: left;
+    color: #3f3f3f;
+}
+
+.article-title h2 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: left;
+    color: #3f3f3f;
+}
+
+.article-content {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.article-content .article-paragraph {
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+}
+
+.article-img-group {
+    width: 100%;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.article-img-group .article-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.article-view-more-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 0px;
+    border-radius: 35px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #303030;
+    transition-duration: 0.1s;
+}
+
+.article-view-more-btn:hover {
+    background-color: #494949;
+}
+
+
+
+
 @media screen and (max-width: 500px) {
     #section {
         width: 100%;
