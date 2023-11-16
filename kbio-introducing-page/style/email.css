@@ -1,32 +1,133 @@
 
 #table {
     width: 800px;
-    height: 450px;
+    height: 400px;
     border-radius: 41px;
     padding: 40px;
+    margin-bottom: 50px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #7d9ab6;
 
     background-color: #48627b;
-}
-
-#tbody {
-    width: 100%;
-    display: flex;
-    background-color: #fff;
-}
-
-tr {
-    float: left;
 }
 
 .daum_roughmap_loader_script {
     border-radius: 15px;
 }
 
+.part1 {
+    width: 400px;
+    line-height: 400px;
+    display: block;
+}
+
+.part2 {
+    width: 300px;
+    line-height: 300px;
+    display: block;
+}
+
+.part-group {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.part1-group {
+    position: relative;
+    bottom: 50px;
+    padding: 0px 20px;
+}
+
+.namePart {
+    width: 100%;
+    text-align: left;
+    color: #fff;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.name-bold {
+    font-weight: bold;
+}
+
+.job-title {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.info-content {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.info {
+    text-align: left;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.icon {
+    width: 36px;
+    float: left;
+}
+
+.info-title {
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 20px;
+    float: left;
+    color: #fff;
+}
+
+.link {
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button {
+    width: 100%;
+    float: left;
+    text-decoration: none;
+    padding: 10px 0px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: #1e4a72;
+    background-color: #5ad7ff;
+    transition: 0.2s;
+}
+
+.button:hover {
+    filter: brightness(0.85);
+}
+
+.address {
+    width: 100%;
+    text-align: left;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.location {
+    font-size: 10px;
+}
+
 /* Back Button */
 .icon-content {
     float: left;
     margin: 0px 10px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .back-icon {
