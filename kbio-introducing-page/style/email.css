@@ -1,16 +1,14 @@
 
 #table {
-    width: 800px;
-    height: 400px;
+    width: 700px;
+    height: 350px;
     border-radius: 41px;
-    padding: 40px;
+    padding: 20px;
     margin-bottom: 50px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     border: 5px solid #7d9ab6;
-
-    background-color: #48627b;
 }
 
 .daum_roughmap_loader_script {
@@ -18,8 +16,8 @@
 }
 
 .part1 {
-    width: 400px;
-    line-height: 400px;
+    width: 350px;
+    line-height: 350px;
     display: block;
 }
 
@@ -44,11 +42,11 @@
 .namePart {
     width: 100%;
     text-align: left;
-    color: #fff;
+    color: #000;
 }
 
 .name {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -74,22 +72,29 @@
 }
 
 .icon {
-    width: 36px;
+    width: 25px;
     float: left;
 }
 
 .info-title {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
-    margin-left: 20px;
+    margin-left: 10px;
     float: left;
-    color: #fff;
+    color: #2ac9ff;
 }
 
 .link {
     font-weight: 300;
-    color: #fff;
+    color: #2ac9ff;
     text-decoration: none;
+}
+
+.middle-line {
+    width: 2px;
+    height: 100%;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .button {
@@ -111,8 +116,9 @@
 .address {
     width: 100%;
     text-align: left;
-    margin-top: 15px;
-    color: #fff;
+    margin-top: 10px;
+    padding: 0px 15px;
+    color: #000;
 }
 
 .location {
