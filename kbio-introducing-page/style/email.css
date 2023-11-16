@@ -21,11 +21,13 @@ body {
 .part1 {
     width: 50%;
     display: block;
+    float: left;
 }
 
 .part2 {
     width: 40%;
     display: block;
+    float: left;
 }
 
 .part-group {
@@ -93,6 +95,7 @@ body {
 .middle-line {
     width: 2px;
     height: 100%;
+    float: left;
     margin: 0px 10px;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.2);
