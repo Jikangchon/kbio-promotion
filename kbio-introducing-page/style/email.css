@@ -3,7 +3,7 @@ body {
 }
 
 #table {
-    width: 700px;
+    width: 800px;
     height: 350px;
     border-radius: 41px;
     padding: 20px;
@@ -19,14 +19,12 @@ body {
 }
 
 .part1 {
-    width: 350px;
-    line-height: 350px;
+    width: 50%;
     display: block;
 }
 
 .part2 {
-    width: 300px;
-    line-height: 300px;
+    width: 40%;
     display: block;
 }
 
@@ -95,6 +93,7 @@ body {
 .middle-line {
     width: 2px;
     height: 100%;
+    margin: 0px 10px;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.2);
 }
