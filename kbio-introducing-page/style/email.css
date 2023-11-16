@@ -1,0 +1,55 @@
+
+#table {
+    width: 800px;
+    height: 450px;
+    border-radius: 41px;
+    padding: 40px;
+    display: flex;
+
+    background-color: #48627b;
+}
+
+#tbody {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+}
+
+tr {
+    float: left;
+}
+
+.daum_roughmap_loader_script {
+    border-radius: 15px;
+}
+
+/* Back Button */
+.icon-content {
+    float: left;
+    margin: 0px 10px;
+}
+
+.back-icon {
+    width: 37px;
+    margin-right: 0px;
+    padding: 0px;
+    position: relative;
+    top: 2px;
+    left: 0px;
+}
+.backbtn {
+    padding: 8px 10px;
+    border-radius: 16px;
+    border: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #12a182;
+    transition: 0.2s;
+}
+
+.backbtn:hover {
+    color: #fff;
+    filter: brightness(0.9);
+    background-color: #057960;
+}

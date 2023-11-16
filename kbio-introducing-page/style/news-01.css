@@ -208,10 +208,10 @@ body {
     background-color: #e2e2e2;
     overflow: hidden;
 
-    -webkit-user-select: all;
-    -moz-user-select: all;
-    -ms-user-select: all;
-    user-select: all;
+    /* -webkit-user-select: all;
+    -moz-user-select: all; */
+    /* -ms-user-select: all; */
+    /* user-select: all; */
 }
 
 .news-header {

@@ -42,6 +42,10 @@ main {
     padding: 0px;
 }
 
+#email-page {
+    padding: 100px;
+}
+
 .web-size {
     width: 1000px;
     height: auto;
