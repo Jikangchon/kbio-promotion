@@ -3,8 +3,8 @@ body {
 }
 
 #table {
-    width: 800px;
-    height: 350px;
+    width: 900px;
+    height: 100%;
     border-radius: 41px;
     padding: 20px;
     margin-bottom: 50px;
@@ -16,6 +16,18 @@ body {
 
 .daum_roughmap_loader_script {
     border-radius: 15px;
+}
+
+.logo-section {
+    width: 100%;
+}
+
+.logo {
+    width: 300px;
+    max-width: initial;
+    margin-left: 50%;
+
+    background-color: aqua;
 }
 
 .part1 {
@@ -67,6 +79,7 @@ body {
 }
 
 .info {
+    width: 100%;
     text-align: left;
     float: left;
     margin-top: 5px;
@@ -84,6 +97,10 @@ body {
     margin-left: 10px;
     float: left;
     color: #0c4d63;
+}
+
+.location {
+    font-size: 14.5px;
 }
 
 .link {
