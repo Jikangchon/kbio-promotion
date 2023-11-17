@@ -23,11 +23,11 @@ body {
     height: 100%;
     /* line-height: 45px; */
     display: flex;
-    margin-left: auto;
+    justify-content: left;
+    
+    /* margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    padding: 0px 20px;
-    float: left;
+    text-align: center; */
 }
 
 .logo-section a {
