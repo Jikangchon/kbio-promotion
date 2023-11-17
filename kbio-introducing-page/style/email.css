@@ -3,7 +3,7 @@ body {
 }
 
 #table {
-    width: 500px;
+    width: 550px;
     height: 100%;
     border-radius: 41px;
     padding: 20px;
@@ -81,12 +81,13 @@ body {
 .namePart {
     width: 100%;
     text-align: left;
-    color: #fff;
+    color: #D7ECFF;
     float: left;
+    margin-bottom: 20px;
 }
 
 .name {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 400;
 }
 
