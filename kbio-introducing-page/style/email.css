@@ -3,7 +3,7 @@ body {
 }
 
 #table {
-    width: 900px;
+    width: 500px;
     height: 100%;
     border-radius: 41px;
     padding: 20px;
@@ -11,7 +11,16 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+
+.stroke {
+    width: 100%;
+    height: 100%;
+    padding: 30px 50px;
+    display: inline-block;
+    border-radius: 35px;
     border: 5px solid #7d9ab6;
+    background-color: #2b3742;
 }
 
 .daum_roughmap_loader_script {
@@ -19,11 +28,14 @@ body {
 }
 
 .logo-section {
-    width: 100%;
+    width: 300px;
     height: 100%;
     /* line-height: 45px; */
-    display: flex;
+    display: block;
     justify-content: left;
+    position: relative;
+    margin-bottom: 10px;
+    float: left;
     
     /* margin-left: auto;
     margin-right: auto;
@@ -37,7 +49,7 @@ body {
 }
 
 .logo-section .logo {
-    width: 250px;
+    width: 100%;
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
@@ -69,7 +81,8 @@ body {
 .namePart {
     width: 100%;
     text-align: left;
-    color: #000;
+    color: #fff;
+    float: left;
 }
 
 .name {
@@ -93,6 +106,7 @@ body {
 
 .info {
     width: 100%;
+    height: 100%;
     text-align: left;
     float: left;
     margin-top: 5px;
@@ -109,7 +123,7 @@ body {
     font-weight: 400;
     margin-left: 10px;
     float: left;
-    color: #0c4d63;
+    color: #fff;
 }
 
 .location {
@@ -118,7 +132,7 @@ body {
 
 .link {
     font-weight: 400;
-    color: #0c4d63;
+    color: #fff;
     text-decoration: none;
 }
 
