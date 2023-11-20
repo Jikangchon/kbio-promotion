@@ -132,7 +132,6 @@ body {
     height: 100%;
     line-height: auto;
     padding: 0px;
-    float: left;
     /* background-color: #f7f7f7; */
 }
 
@@ -141,7 +140,6 @@ body {
     height: auto;
     line-height: auto;
     padding: 70px 100px;
-    float: left;
     background-color: #fff;
 }
 
@@ -159,7 +157,6 @@ body {
     height: 200px;
     line-height: 200px;
     padding: 0px 30px;
-    float: left;
     background-color: #303030;
 }
 
