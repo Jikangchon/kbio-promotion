@@ -83,3 +83,9 @@
     transform: scale(0.99);
     border-radius: 26px;
 }
+
+@media screen and (max-width: 800px) {
+    .section-box {
+        background-color: rgba(123, 128, 194, 0.451);
+    }
+}
