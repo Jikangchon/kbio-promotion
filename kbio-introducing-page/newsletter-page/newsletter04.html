@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/main2.css">
+    <link rel="stylesheet" href="../style/news-01.css">
+    <link rel="stylesheet" href="../style/mobile.css">
+    <script src="../copy.js" type="text/javascript"></script>
+    <script src="../main.js" type="text/javascript"></script>
+    <script src="../linkcopy.js" type="text/javascript"></script>
+    <title>Newsletter Editor</title>
+</head>
+<body>
+    <main class="editor-main" id="newsletter-main">
+        <section id="section">
+            <div id="newsletter-section" style="display: block; margin-left: auto; margin-right: auto;">
+                <div class="news-header news-header-bg1">
+                    <!-- <div class="news-logo">
+                        <a href="https://www.kbiotechsolutions.com"><img src="../images/kbio-wh-logo.png" alt="KBIO Logo" class="logo-img"></a>
+                    </div> -->
+                    <a href="https://www.kbiocafe.com" target="_blank">
+                        <img src="../images/Logo-section-kbiocafe_1_00000.jpg" alt="bg-img" class="logo-bg-img">
+                    </a>
+                </div>
+
+                <!-- <div class="news-sec1 first-section">
+                    <div class="news-sec-group">
+                        <img src="../images/" alt="free size image" id="letter-image">
+                    </div>
+                </div> -->
+
+                <div class="news-sec1">
+                    <div class="news-sec-group">
+                        <div class="content-box">
+                            <h1 class="big-title">K-Food Special</h1>
+                            <div class="menu-price-box">
+                                <div class="menu-img">
+                                    <img src="../images/bulgogi-dupbab.png" alt="Menu">
+                                </div>
+                                <h1 class="img-description">Bulgogi Rice</h1>
+                            </div>
+                            <div class="menu-price-box price-box-bg">
+                                <h1 class="price-txt">Special Menu Price:<br><strong>Only $12.99</strong></h1>
+                            </div>
+                            <div class="menu-paragraph">
+                                <p>
+                                    *This image you see may difference<br>from the actual product.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="promotion-section">
+                                <h2 class="promo-title">KBIO BEST MENU</h2>
+                                <h1 class="promo-content">
+                                    KBIO Cafe will be serving<br>our K-Food Special,<br>Bulgogi Dupbap on Thursday, November 30th.
+                                </h1>
+                            </div>
+                            <div class="food-section">
+                                <div class="food-collection">
+                                    <img src="../images/mocha.jpg" alt="mocha">
+                                    <img src="../images/salad.png" alt="salad">
+                                    <img src="../images/sandwich.jpg" alt="sandwich1">
+                                    <img src="../images/caprese.png" alt="sandwich2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-sec1">
+                    <div class="news-sec-group">
+                        <div class="openHours-content">
+                            <h1 class="open-hour">
+                                2023 KBIO Cafe:<br>Opening Hours: Tuesday - Thursday<br>
+                                9:30am - 1:30pm
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-sec1">
+                    <div class="news-sec-group">
+                        <div class="content-box">
+                            <h1 class="news-title3">VISIT OUR KBIO CAFE<br>AND ENJOY THE BEST EXPERIENCE</h1>
+                            <div class="link-buttonGroup">
+                                <a href="https://www.kbiocafe.com" class="link-button2 yellow-btn" target="_blank">Visit KBIO Cafe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-sec1">
+                    <div class="news-sec-group">
+                        <div class="content-box">
+                            <h1 class="news-title3">Visit Our Newsletter Page</h1>
+                            <button onclick="copyLink()" class="view-newsletter">
+                                <a href="https://kbio-promotional-site.netlify.app/newsletter-page/newsletter03">See More</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-footer">
+                    <div class="news-footer-grp">
+                        <div class="news-f-sec1">
+                            <div class="news-logo">
+                                <a href="https://www.kbiocafe.com"><img src="../images/kbiocafe_wh-logo.png" alt="KBIO Logo" class="logo-img"></a>
+                            </div>
+                        </div>
+                        <div class="news-f-sec2">
+                            <p class="news-f-location">
+                                Location: Suite 111 1820 Gateway Drive, San Mateo California 94404<br>
+                                website: <a href="https://kbiotechsolutions.com">kbiotechsolutions.com</a> | 
+                                Email: <a href="mailto:contact@kbiotechsolutions.com">contact@kbiotechsolutions.com</a>
+                            </p>
+                            <p class="news-f-copy">
+                                &copy; Copyright 2023 KBIO Cafe All right reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section">
+            <div class="section-box">
+                <div class="news-sec-group">
+                    <div class="icon-content">
+                        <button onclick="goBack()" class="backbtn">
+                            <img src="../images/left-arrow-edited1_00000.png" alt="link" class="back-icon">
+                        </button>
+                    </div>
+                    <div class="icon-content">
+                        <button onclick="copyLink()" class="copyLink">
+                            <img src="../images/link.png" alt="link" class="link-icon">링크 복사
+                        </button>
+                    </div>
+                    <div class="icon-content">
+                        <button onclick="copyLink()" class="copyLink-mobile">
+                            <img src="../images/link.png" alt="link" class="link-icon">링크 복사
+                        </button>
+                    </div>
+                    <!-- <div class="icon-content">
+                        <button onclick="copyBtn('newsletter-section');return false;" class="copyBtn">
+                            <img src="../images/newsletter.png" alt="link" class="link-icon">뉴스레터 복사
+                        </button>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
