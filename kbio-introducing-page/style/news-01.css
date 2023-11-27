@@ -789,6 +789,28 @@ body {
     }
 
 
+    .content-box .h-title {
+        width: 100%;
+        background-color: #000;
+    }
+
+    .h-title h1 {
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    /* Table */
+    .table {
+        width: 1000px;
+        height: 200px;
+    }
+
+    .table, th, td {
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+
+
     /* Newsletter Section */
     #newsletter-section {
         width: 100%;
