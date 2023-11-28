@@ -26,6 +26,16 @@ nav,
     border: 0px;
 }
 
+::-moz-selection {
+    background-color: #ffb533;
+    color: #573d10;
+}
+
+::selection {
+    background-color: #ffb533;
+    color: #573d10;
+}
+
 body {
     width: 100%;
     display: flex;
