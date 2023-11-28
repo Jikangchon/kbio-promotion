@@ -799,6 +799,15 @@ body {
 }
 
 
+.table-desc {
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 12px;
+    text-align: left;
+    color: #595959;
+}
+
+
 /* --------------------------- */
 
 
