@@ -242,7 +242,7 @@ body {
     text-align: center;
     border-radius: 16px;
     background-color: #f7f7f7;
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
+    /* filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2)); */
 }
 
 .first-section {
@@ -664,6 +664,11 @@ body {
     font-size: 14px;
 }
 
+.section-spacing {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
 /* KBIO Cafe Promotion Contents */
 .promotion-section {
     width: 100%;
@@ -734,6 +739,66 @@ body {
 }
 
 
+/* Table */
+.title-box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.title-01 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #4d448c;
+}
+
+.title-01 strong {
+    font-size: 30px;
+}
+
+.h-content {
+    width: 100%;
+    color: #595959;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.h-content p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+.table-section {
+    width: 100%;
+}
+
+#table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+}
+
+#table thead, tr, th, td {
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#table thead th {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #797ea2;
+}
+
+#table tbody td {
+    font-size: 18px;
+    color: #262c59;
+    background-color: #e4e8ff;
+}
+
+
 /* --------------------------- */
 
 
@@ -789,25 +854,6 @@ body {
     }
 
 
-    .content-box .h-title {
-        width: 100%;
-        background-color: #000;
-    }
-
-    .h-title h1 {
-        font-size: 25px;
-        font-weight: 200;
-    }
-
-    /* Table */
-    .table {
-        width: 1000px;
-        height: 200px;
-    }
-
-    .table, th, td {
-        border: 1px solid rgba(0, 0, 0, 0.5);
-    }
 
 
 
