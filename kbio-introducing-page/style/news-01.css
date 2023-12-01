@@ -808,6 +808,31 @@ body {
     color: #595959;
 }
 
+/* newsletter table design */
+#newsletter-table {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+}
+
+.news-thead .middle {
+    width: 800px;
+    height: 100%;
+    display: inline-block;
+    transition: 0.2s;
+    padding: 30px;
+}
+
+
 
 /* --------------------------- */
 
