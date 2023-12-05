@@ -740,6 +740,31 @@ body {
 
 
 /* Table */
+.kbio-event-group01 {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.kbio-event-group01 .title-02 {
+    display: block;
+    font-size: 45px;
+    color: #8a5ccd;
+    text-align: left;
+}
+
+.table-title {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #6d5a88;
+}
+
 .title-box {
     width: 100%;
     margin-bottom: 20px;
@@ -772,6 +797,11 @@ body {
 
 .table-section {
     width: 100%;
+}
+
+.table-section-manual {
+    width: 600px;
+    margin-top: 20px;
 }
 
 #table {
@@ -832,6 +862,12 @@ body {
 .news-thead .left,
 .news-thead .right {
     background-color: #303030;
+}
+
+#table tbody .t-row-highlight {
+    font-weight: 300;
+    color: #fff;
+    background-color: #389bdc;
 }
 
 
