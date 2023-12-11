@@ -872,6 +872,11 @@ body {
     background-color: #389bdc;
 }
 
+.news-sec1 iframe {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
 
 
 /* --------------------------- */
