@@ -878,6 +878,27 @@ body {
     border-radius: 15px;
 }
 
+.videoCover-img {
+    width: 542px;
+    height: 542px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 10px solid #262c59;
+}
+
+.videoCover-img img {
+    width: 100%;
+    transition: 0.2s;
+}
+
+.videoCover-img img:hover {
+    transform: scale(1.05);
+}
+
 
 /* --------------------------- */
 
