@@ -685,6 +685,18 @@ body {
     font-size: 34px;
 }
 
+.promotion-section .promo-letter {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.promotion-section .promo-letter strong {
+    font-weight: 400;
+}
+
+
 /* Food Section */
 .food-section {
     width: 100%;
@@ -727,7 +739,27 @@ body {
     font-size: 20px;
     font-weight: 400;
     color: #000;
+    text-align: center;
 }
+
+/* Opening Hours Table */
+.openHours-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgba(255, 177, 40, 0.9);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.openHours-table tr, th, td {
+    text-align: center;
+    border: 1px solid rgba(255, 177, 40);
+}
+
+.openHours-table th {
+    background-color: rgba(255, 177, 40);
+}
+
 
 .link-buttonGroup .yellow-btn {
     color: #2c2c2c;
