@@ -673,6 +673,7 @@ body {
 .promotion-section {
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 20px;
     color: #42211F;
 }
 
@@ -738,7 +739,7 @@ body {
 .openHours-content {
     text-align: left;
     margin-top: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .open-hour {
