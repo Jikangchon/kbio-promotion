@@ -672,6 +672,7 @@ body {
 /* KBIO Cafe Promotion Contents */
 .promotion-section {
     width: 100%;
+    margin-top: 20px;
     color: #42211F;
 }
 
@@ -736,8 +737,8 @@ body {
 /* Open Hours */
 .openHours-content {
     text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .open-hour {
@@ -749,13 +750,16 @@ body {
 
 /* Opening Hours Table */
 .openHours-table-Group {
-    width: 100%;
+    width: 500px;
+    display: block;
     background-color: #ececec;
     border-radius: 15px;
     border: 2px solid rgba(255, 177, 40, 0.9);
     overflow: hidden;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .openHours-table {
