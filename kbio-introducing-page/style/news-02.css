@@ -311,6 +311,12 @@ body {
     transition: 0.2s;
 }
 
+.logo-container .logo-h-img2 {
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
 /* Main Section */
 .main-section {
     width: 100%;
@@ -577,7 +583,7 @@ body {
     #section {
         width: 100%;
         margin: 0px;
-        padding: 0px;
+        padding: 10px;
     }
 
     #section .section-box {
@@ -590,6 +596,10 @@ body {
         margin-right: auto;
         padding: 0px;
         background-color: transparent;
+    }
+
+    #section table {
+        width: 100%;
     }
     
     .link-icon {
@@ -630,23 +640,16 @@ body {
     /* Newsletter Section */
     #newsletter-section {
         width: 100%;
-        height: 100%;
-        padding: 10px;
+        padding: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 24px;
-        background-color: #EFEFEF;
-        overflow: hidden;
 
         -webkit-user-select: all;
         -moz-user-select: all;
         -ms-user-select: all;
         user-select: all;
-    }
-
-    #news-table2 {
-        width: 550px;
     }
 
     .section-cover {
