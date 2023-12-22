@@ -507,6 +507,40 @@ body {
     float: left;
 }
 
+/* Default Table */
+.d-table-group {
+    width: 100%;
+    padding: 50px 12px;
+}
+
+.d-table-section {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.default-table {
+    width: 100%;
+    display: block;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+.default-table thead tr,
+.default-table th,
+.default-table td {
+    text-align: center;
+    border: 1px solid #000;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.default-table thead th {
+    font-size: 10px;
+    color: #fff;
+    padding: 5px;
+    background-color: #4a82d1;
+}
+
 
 /* Food Section */
 .content-box {
