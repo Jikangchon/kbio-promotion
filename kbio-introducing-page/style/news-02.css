@@ -10,6 +10,21 @@ body {
     align-items: center;
 }
 
+.news-table2 {
+    width: 650px;
+}
+
+.notice-section {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.n-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #325694;
+}
 
 #section {
     width: 100%;
@@ -874,6 +889,21 @@ body {
 }
 
 
+/* Letter 섹션 */
+.letter-title {
+    font-size: 33px;
+    font-weight: 900;
+    color: #59a778;
+}
+
+.letter-p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #647a6d;
+}
+
+
 /* --------------------------- */
 
 @media screen and (max-width: 560px) {
@@ -966,6 +996,10 @@ body {
         width: 100%;
     }
 
+    .main-section {
+        width: 100%;
+    }
+
     .header-section {
         width: 100%;
     }
@@ -1006,4 +1040,11 @@ body {
     .link-button2 {
         font-size: 11px;
     }
+
+
+    #news-table2 {
+        width: 300px;
+    }
+
+    
 }
