@@ -16,12 +16,12 @@ body {
 
 .notice-section {
     width: 100%;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
 }
 
 .n-title {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     color: #325694;
 }
@@ -307,6 +307,8 @@ body {
     margin-top: 5px;
 }
 
+
+
 .header-border {
     border: 3px solid #f8f8f8;
 }
@@ -367,6 +369,12 @@ body {
     height: 100%;
     padding: 0px 0px;
     background-color: #f8f8f8;
+}
+
+.main-section2 {
+    width: 100%;
+    height: 20px;
+    background-color: rgba(0,0,0, 0);
 }
 
 .section1-title {
@@ -893,14 +901,15 @@ body {
 .letter-title {
     font-size: 33px;
     font-weight: 900;
-    color: #59a778;
+    color: #e09200;
 }
 
 .letter-p {
     font-size: 18px;
     font-weight: 500;
     margin-top: 15px;
-    color: #647a6d;
+    word-break: normal;
+    color: #897a60;
 }
 
 
