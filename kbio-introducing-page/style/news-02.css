@@ -362,6 +362,12 @@ body {
     padding: 50px 20px;
 }
 
+.group-section h1 {
+    font-size: 25px;
+    font-weight: 900;
+    color: #daa43f;
+}
+
 
 /* Main Section */
 .main-section {
