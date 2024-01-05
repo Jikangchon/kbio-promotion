@@ -288,6 +288,11 @@ body {
 }
 
 
+.header-comp {
+    width: 100%;
+    padding: 40px 25px;
+}
+
 /* --------------------------- */
 
 /* Newsletter table section */
