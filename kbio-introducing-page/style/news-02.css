@@ -1016,6 +1016,44 @@ body {
     color: #897a60;
 }
 
+/* 설정방법 */
+.image-box {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.image-box .setting-image-01 {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.signature-title-01 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #2d2a8d;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.image-file-box {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-file-box .image-file {
+    width: 520px;
+    border-radius: 15px;
+}
+
 
 /* --------------------------- */
 
