@@ -331,7 +331,7 @@ body {
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 120;
+    width: 120px;
     margin-top: 4px;
     border-radius: 20px;
 }
@@ -730,13 +730,10 @@ body {
     border: 1px solid rgba(200, 170, 236, 1);
 }
 
-#second-table #th-02 {
-    font-size: 12px;
-    font-weight: 400;
-}
-
 #second-table thead #th-02 {
     height: 40px;
+    font-size: 12px;
+    font-weight: 400;
     background-color: rgba(104, 59, 159, 1);
 }
 
@@ -1259,6 +1256,10 @@ body {
         width: 100%;
     }
 
+    .notice-section {
+        width: 100%;
+    }
+
     /* Header Section */
     .header-section {
         width: 100%;
@@ -1273,8 +1274,50 @@ body {
     }
 
     .logo-container {
-        width: 100%;
+        width: 200px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+    .top-paragraph {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .top-signature {
+        font-size: 13px;
+    }
+
+    .article-section {
+        padding: 30px 20px;
+    }
+
+    .a-title {
+        font-size: 17px;
+    }
+
+    .a-description {
+        font-size: 11px;
+    }
+
+    .article-sub-header {
+        font-size: 8px;
+    }
+
+    .td-num {
+        width: 50px;
+    }
+
+    .td-name {
+        width: 40%;
+    }
+
+    .group-section .s-title {
+        font-size: 20px;
+    }
+
+
 
     .news-sec1 {
         margin-top: 10px;
@@ -1314,5 +1357,13 @@ body {
         width: 300px;
     }
 
-    
+    .footer-section .f-text-container {
+        padding: 0px 20px;
+    }
+
+    .news-f-location {
+        font-size: 10px;
+    }
+
+
 }
