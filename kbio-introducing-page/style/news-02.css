@@ -936,6 +936,35 @@ body {
     font-size: 28px;
 }
 
+/* Calendar graphic */
+.temp-cal {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.temp-cal .temp-cal-image {
+    width: 100%;
+}
+
+.temp-cal-desc {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #7e7e7e;
+}
+
+.reopening-date {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    color: #fff;
+    background: rgb(255, 152, 38);
+    background: linear-gradient(90deg, rgba(255, 152, 38, 1) 0%, rgba(133, 45, 22, 1) 100%);
+}
+
 
 /* Footer Section */
 .footer-section {
