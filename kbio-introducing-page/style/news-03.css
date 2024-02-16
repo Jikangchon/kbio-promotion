@@ -1,0 +1,231 @@
+/* 2024-02-16 케이바이오솔루션 뉴스레터 */
+.title-section-01 {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 50px;
+}
+
+.title-01 {
+    font-size: 25px;
+    color: #f1991a;
+    margin-bottom: 15px;
+}
+
+.p1 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #6d6d6d;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.p1-strong-01 {
+    font-weight: 500;
+    color: #ff7c1c;
+}
+
+.title-section-02 {
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 0px;
+}
+
+#title-sec-02 {
+    margin-bottom: 20px;
+}
+
+.contact-box-01 {
+    border: 2px solid rgba(0, 94, 154, 1);
+    border-radius: 10px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+#contact-table-01 {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+#contact-table-01 tbody .th-01,
+#contact-table-01 tbody .td-01 {
+    padding: 10px;
+    border: 1px solid rgba(0, 94, 154, 0.5);
+}
+
+.th-01 {
+    width: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    color: #ffffff;
+    background-color: #9ab8cb;
+}
+
+.td-01 {
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #6d6d6d;
+    background-color: #ffffff;
+}
+
+.divide-line-02 {
+    width: 600px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-color: rgba(0, 94, 154, 0.4);
+}
+
+.title-header-01 {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.0);
+    background: rgb(0, 94, 154);
+    background: linear-gradient(90deg, rgba(0, 94, 154, 1) 0%, rgba(0, 52, 85, 1) 100%);
+}
+
+.logo-box {
+    width: 150px;
+}
+
+.logo-box #logo-image {
+    width: 100%;
+}
+
+.title-02 {
+    font-size: 25px;
+    color: #005e9a;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* table-box-02 */
+.table-box-01 {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 94, 154, 1);
+}
+
+#table-01 {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+#table-01 tbody tr .th-03,
+#table-01 tbody tr .td-03 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(0, 52, 85, 0.3);
+}
+
+.th-03 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgba(136, 161, 178, 1);
+}
+
+.td-03 {
+    font-weight: 300;
+    color: #555555;
+    background-color: #ffffff;
+}
+
+.button-link-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.button-link-section .button-link {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 30px;
+    border: 2px solid rgba(0, 94, 154, 1);
+    color: #ffffff;
+    background-color: rgba(0, 94, 154, 1);
+    transition-duration: 0.2s;
+}
+
+.button-link-section .button-link:hover {
+    color: rgba(0, 94, 154, 1);;
+    background-color: rgba(0, 94, 154, 0);
+}
+
+.table-box-02 {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 94, 154, 1);
+}
+
+#table-02 {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+#table-02 thead .table-box-th-01,
+#table-02 tbody tr .td-04 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(0, 52, 85, 0.3);
+}
+
+.table-box-th-01 {
+    height: 30px;
+    font-size: 13px;
+    background-color: #dfdfdf;
+}
+
+.td-04 {
+    font-size: 13px;
+    font-weight: 300;
+    color: #424242;
+    background-color: #ffffff;
+}
+
+#tb-01 {
+    width: 100px;
+}
+
+#tb-03 {
+    width: 100px;
+}
+
+#tb-04 {
+    width: 60px;
+}
+
+.td-04 .h-listG {
+    text-align: left;
+    padding-left: 25px;
+}
+
+.td-04 .h-listG li {
+    
+}
+
+.td-04 .s-listG {
+    font-size: 12px;
+    padding-left: 15px;
+}
