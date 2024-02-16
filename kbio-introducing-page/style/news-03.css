@@ -205,11 +205,15 @@
 }
 
 #tb-01 {
-    width: 100px;
+    width: 15%;
+}
+
+#tb-02 {
+    width: 50%;
 }
 
 #tb-03 {
-    width: 100px;
+    width: 25%;
 }
 
 #tb-04 {
