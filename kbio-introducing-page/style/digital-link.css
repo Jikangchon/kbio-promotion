@@ -204,6 +204,12 @@ main {
 
     .button-box .btn-link {
         font-size: 12px;
+        color: #000000;
+        background-color: #ffffff;
+    }
+
+    .button-box .btn-link:hover {
+        transform: scale(1.02);
     }
 
     #footer {
