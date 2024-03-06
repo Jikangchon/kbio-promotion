@@ -12,13 +12,13 @@
     text-align: center;
     border-radius: 12px;
     margin-bottom: 15px;
-    background-color: #eeeeee;
+    background-color: transparent;
 }
 
 .event-header-02 #event-image-01 {
     width: 100%;
     text-align: center;
-    transform: scale(1.05);
+    transform: scale(1.06);
 }
 
 /* Event Description */
