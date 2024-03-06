@@ -672,6 +672,8 @@ body {
 /* KBIO Cafe Promotion Contents */
 .promotion-section {
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: #42211F;
 }
 
@@ -684,6 +686,37 @@ body {
 .promo-content {
     font-size: 34px;
 }
+
+.promo-letter-title {
+    font-size: 35px;
+    text-align: left;
+}
+
+.promotion-section .promo-letter {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+.promotion-section .promo-letter strong {
+    font-weight: 400;
+}
+
+.notice-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 120px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+}
+
+.notice-title-bg {
+    background-color: #c66c6c;
+}
+
 
 /* Food Section */
 .food-section {
@@ -719,15 +752,109 @@ body {
 /* Open Hours */
 .openHours-content {
     text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .open-hour {
     font-size: 20px;
     font-weight: 400;
     color: #000;
+    text-align: center;
 }
+
+/* Opening Hours Table */
+.openHours-table-Group {
+    width: 500px;
+    display: block;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 177, 40, 0.9);
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.openHours-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+.openHours-table thead tr, 
+.openHours-table th, 
+.openHours-table td {
+    text-align: center;
+    border: 1px solid rgba(172, 134, 66, 0.7);
+}
+
+.openHours-table .open-week {
+    color: #4b2306;
+    background-color: rgba(255, 177, 40);
+}
+
+.openHours-table .closed {
+    color: #fff;
+    font-weight: 300;
+    background-color: #514131;
+}
+
+.openHours-table .open-text {
+    color: #df8a23;
+}
+
+.openHours-table .open-txt-closed {
+    color: #303030;
+}
+
+
+.color-box-container {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color-box-group {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.color-box-container .color-box {
+    width: 200px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.color-box-container .color1 {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 35px;
+    background-color: rgba(255, 177, 40);
+}
+
+.color-box-container .color2 {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 35px;
+    background-color: #514131;
+}
+
+.color-box-container .color-txt {
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 15px;
+    float: left;
+}
+
 
 .link-buttonGroup .yellow-btn {
     color: #2c2c2c;
@@ -740,6 +867,32 @@ body {
 
 
 /* Table */
+.kbio-event-group01 {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 0px 50px;
+}
+
+.kbio-event-group01 .title-02 {
+    display: block;
+    font-size: 32px;
+    color: #424d8f;
+    text-align: left;
+}
+
+.table-title {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #424d8f;
+}
+
 .title-box {
     width: 100%;
     margin-bottom: 20px;
@@ -772,25 +925,31 @@ body {
 
 .table-section {
     width: 100%;
+    overflow: hidden;
 }
+
+.table-section-manual {
+    width: 600px;
+    margin-top: 20px;
+}
+
 
 #table {
     width: 100%;
     border-collapse: collapse;
-    border: 2px solid rgba(0, 0, 0, 0.7);
-    border-radius: 30px;
+    border: 2px solid rgba(66, 77, 143, 0.7);
 }
 
 #table thead, tr, th, td {
     height: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(66, 77, 143, 0.2);
 }
 
 #table thead th {
     font-size: 15px;
     font-weight: 400;
     color: #fff;
-    background-color: #797ea2;
+    background-color: #424d8f;
 }
 
 #table tbody td {
@@ -834,6 +993,38 @@ body {
     background-color: #303030;
 }
 
+#table tbody .t-row-highlight {
+    font-weight: 300;
+    color: #fff;
+    background-color: #389bdc;
+}
+
+.news-sec1 iframe {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.videoCover-img {
+    width: 542px;
+    height: 542px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 10px solid #262c59;
+}
+
+.videoCover-img img {
+    width: 100%;
+    transition: 0.2s;
+}
+
+.videoCover-img img:hover {
+    transform: scale(1.05);
+}
 
 
 /* --------------------------- */
