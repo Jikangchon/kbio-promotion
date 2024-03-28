@@ -99,13 +99,13 @@
     font-weight: 400;
     text-align: right;
     padding-right: 15px;
-    color: rgba(83, 52, 27, 1);
-    background-color: rgba(255, 183, 19, 1);
+    color: rgba(72,72,72,1);
 }
 
 #order-table tbody tr .order-price {
     width: 120px;
     font-weight: 400;
-    color: rgba(72,72,72,1);
+    color: rgba(83, 52, 27, 1);
+    background-color: rgba(255, 183, 19, 0.3);
     text-align: center;
 }
