@@ -40,3 +40,72 @@
     font-size: 22px;
     color: #be6c6c;
 }
+
+/* KBIO Cafe Catering Order */
+#kbiocafe-order-title-section {
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    color: #ffffff;
+    background: rgb(255, 163, 19);
+    background: linear-gradient(90deg, rgba(255, 163, 19, 1) 0%, rgba(227, 85, 32, 1) 100%);
+}
+
+.order-title {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#kbiocafe-orderMenu {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.order-table-bg {
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 183, 19, 1);
+}
+
+#order-table {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+#order-table tbody tr,
+#order-table tbody tr .order-th,
+#order-table tbody tr .order-price {
+    height: 40px;
+    border: 1px solid rgba(185, 136, 24, 0.5);
+}
+
+#order-table tbody tr .order-th {
+    font-weight: 400;
+    text-align: right;
+    padding-right: 15px;
+    color: rgba(83, 52, 27, 1);
+    background-color: rgba(255, 183, 19, 1);
+}
+
+#order-table tbody tr .order-price {
+    width: 120px;
+    font-weight: 400;
+    color: rgba(72,72,72,1);
+    text-align: center;
+}
