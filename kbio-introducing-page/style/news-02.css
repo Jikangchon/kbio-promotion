@@ -1103,6 +1103,12 @@ body {
     text-align: center;
 }
 
+.group-section-02 {
+    width: 100%;
+    padding: 0px 60px;
+    text-align: center;
+}
+
 .middle-group {
     width: 100%;
     display: inline-block;
@@ -1110,17 +1116,25 @@ body {
     vertical-align: middle;
 }
 
-.group-section .s-title {
-    font-size: 25px;
-    font-weight: 400;
-    color: #323232;
-}
-
 .group-section .section-btn {
     width: 100%;
     font-size: 15px;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 0px;
+    padding: 10px 0px;
+    border-radius: 15px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2a6ee4;
+    transition: 0.2s;
+}
+
+.group-section-02 .section-btn {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 0px;
     padding: 10px 0px;
     border-radius: 15px;
     display: block;
@@ -1131,6 +1145,10 @@ body {
 }
 
 .group-section .section-btn:hover {
+    background-color: #2156b2;
+}
+
+.group-section-02 .section-btn:hover {
     background-color: #2156b2;
 }
 
