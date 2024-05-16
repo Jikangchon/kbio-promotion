@@ -1037,7 +1037,7 @@ body {
     font-weight: 400;
     margin-top: 5px;
     margin-bottom: 5px;
-    color: #303030;
+    color: #808080;
 }
 
 .divide-line {
@@ -1094,6 +1094,7 @@ body {
     font-size: 11px;
     font-weight: 300;
     text-align: center;
+    color: #808080;
 }
 
 .a-view-more-btn {
