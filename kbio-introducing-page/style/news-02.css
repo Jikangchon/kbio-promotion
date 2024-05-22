@@ -1250,6 +1250,8 @@ body {
 
 
 .c-title {
+    display: block;
+    width: 100%;
     font-size: 22px;
     text-align: center;
     padding: 5px 0px;
@@ -1266,7 +1268,7 @@ body {
 }
 
 .email-h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #522a10;
     background-color: #ffc096;
@@ -1281,6 +1283,40 @@ body {
 
 .c-menu-list li {
     padding-left: 5px;
+}
+
+.catering-breakfast-table-cover {
+    overflow: hidden;
+    border: 1px solid #353535;
+    border-radius: 5px;
+}
+
+.catering-breakfast-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+    margin: 0px;
+}
+
+.catering-breakfast-table tbody tr td {
+    border-collapse: collapse;
+    border: 1px solid #353535;
+    padding: 8px;
+    font-size: 12px;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+.catering-num {
+    width: 40px;
+}
+
+.catering-menu {
+    width: 100%;
+}
+
+.catering-price {
+    width: 70px;
 }
 
 
