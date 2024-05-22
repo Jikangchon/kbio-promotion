@@ -1178,6 +1178,111 @@ body {
     background-color: #2156b2;
 }
 
+/* Email content style */
+.email-h1 {
+    width: 450px;
+    font-size: 45px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: #323232;
+}
+
+.email-p1 {
+    width: 450px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #323232;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email-p2 {
+    width: 450px;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: left;
+    color: #323232;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+}
+
+.email-p2 strong {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.email-h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #323232;
+}
+
+.catering-btn-group {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.catering-btn {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #323232;
+    transition: 0.2s;
+}
+
+.catering-btn:hover {
+    color: #e7e7e7;
+    background-color: #000000;
+}
+
+
+.c-title {
+    font-size: 22px;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #fe7820;
+}
+
+.catering-menu-section {
+    width: 350px;
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.email-h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #522a10;
+    background-color: #ffc096;
+}
+
+.c-menu-list {
+    list-style: decimal;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+.c-menu-list li {
+    padding-left: 5px;
+}
+
 
 /* Letter 섹션 */
 .letter-title {
