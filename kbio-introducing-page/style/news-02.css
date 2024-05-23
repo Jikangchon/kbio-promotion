@@ -1216,6 +1216,10 @@ body {
     font-weight: 400;
 }
 
+.emailP1-highlight {
+    color: #ff7b49;
+}
+
 .email-h2 {
     font-size: 20px;
     font-weight: 400;
