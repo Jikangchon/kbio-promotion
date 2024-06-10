@@ -937,7 +937,57 @@ body {
 }
 
 .promo-content {
-    font-size: 28px;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #763f21;
+}
+
+.promo-content2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #52250d;
+}
+
+/* Promo Text List Table Design */
+.promo-list-cover {
+    width: 400px;
+    height: 180px;
+    display: grid;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #52250d;
+}
+
+#promo-txt-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+#promo-txt-list tbody tr td,
+#promo-txt-list tbody,
+#promo-txt-list tbody tr {
+    border: 1px solid #9b9b9b;
+}
+
+#promo-txt-list .week {
+    width: 150px;
+    color: #ffffff;
+    background-color: #52250d;
+}
+
+#promo-txt-list .menu-item {
+    width: 200px;
 }
 
 /* Calendar graphic */
