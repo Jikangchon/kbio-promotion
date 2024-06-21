@@ -883,6 +883,8 @@ body {
 
 .menu-img img {
     width: 105%;
+    position: relative;
+    bottom: 25px;
     /* border-radius: 6px; */
     transition: 0.2s;
 }
