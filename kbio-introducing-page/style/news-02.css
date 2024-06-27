@@ -309,7 +309,7 @@ body {
     display: block;
     overflow: hidden;
     float: left;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-bottom: 5px;
     margin-top: 5px;
 }
@@ -714,10 +714,10 @@ body {
 }
 
 .d-table-title {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
-    margin-bottom: 0px;
-    color: #ffffff;
+    margin-bottom: 20px;
+    color: #264b90;
     
 }
 
@@ -1427,6 +1427,28 @@ body {
 .image-file-box .image-file {
     width: 520px;
     border-radius: 15px;
+}
+
+.img-block {
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+.image-container {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 2px solid rgba(38, 75, 144, 0.5);
+}
+
+.image-container .poster-img {
+    width: 100%;
 }
 
 

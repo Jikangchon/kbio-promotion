@@ -20,11 +20,7 @@
     <link rel="stylesheet" href="./style/bg-section.css">
     <!-- <link rel="stylesheet" href="./style/iphone.css"> -->
     <script src="https://kit.fontawesome.com/ce589813f3.js" crossorigin="anonymous"></script>
-    <script src="menu.js">
-        document.querySelector('.menu-btn').addEventListener('click', function() {
-            document.querySelector('.navBar_menu').classList.toggle('show');
-        });
-    </script>
+
     <title>케이바이오솔루션 - Home</title>
 </head>
 <body>
@@ -70,13 +66,51 @@
             </ul>
         </nav>
 
-        <!-- Mobile -->
-        <div id="wrapper">
-            <div id="line-wrapper">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
+        <!-- 상단 메뉴 버튼 -->
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        <!-- 사이드 메뉴 -->
+        <div id="side-menu" class="side-menu">
+            <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
+            <nav id="navBar">
+                <ul id="list" class="navbar_menu nav-toggle">
+                    <li><a href="index.html">회사소개</a></li>
+                    <li>
+                        <a href="#">Our Clients</a>
+                        <ul class="submenu submenu-toggle">
+                            <li><a href="team.html">Our Clients</a></li>
+                            <li><a href="team.html">Mission Statement</a></li>
+                            <li><a href="company-data.html">FDA, MDR 허가컨설팅</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">서비스</a>
+                        <ul class="submenu submenu-toggle">
+                            <li><a href="#">연구 개발</a></li>
+                            <li><a href="#">임상 컨설팅</a></li>
+                            <li><a href="#">인허가 컨설팅</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">컨설팅</a>
+                        <ul class="submenu submenu-toggle">
+                            <li><a href="#">비즈니스 컨설팅</a></li>
+                            <li><a href="#">기술 컨설팅</a></li>
+                            <li><a href="#">전략 컨설팅</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="press-page.html">언론보도</a></li>
+                    <li>
+                        <a href="#">디지털 링크</a>
+                        <ul class="submenu">
+                            <li><a href="promotion.html">프로모션</a></li>
+                            <li><a href="request.html">자료 요청</a></li>
+                            <li><a href="website-introduce.html">웹사이트 소개</a></li>
+                        </ul>
+                    </li>
+                    <li id="news-menu"><a href="page1.html">뉴스레터</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
@@ -201,7 +235,7 @@
             <section id="section3">
                 <div class="section-group3">
                     <div class="titleGroup">
-                        <h1 class="sec-grp3-date">2024년 6월</h1>
+                        <h1 class="sec-grp3-date">2024년 7월</h1>
                         <h1 class="sec-grp3-update-txt">UPDATE</h1>
                     </div>
                     <div class="section-box">
@@ -380,5 +414,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="menu.js"></script>
 </body>
 </html>
