@@ -662,6 +662,10 @@ body {
 }
 
 /* Default Table */
+#d-fda-title {
+    margin-bottom: 15px;
+}
+
 .d-table-group {
     width: 100%;
     padding: 30px 12px;
@@ -689,7 +693,7 @@ body {
 
 #second-t-title {
     text-align: left;
-    line-height: 25px;
+    line-height: 23px;
     padding: 10px 25px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -716,7 +720,7 @@ body {
 .d-table-title {
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 0cqh;
     color: #264b90;
     
 }
