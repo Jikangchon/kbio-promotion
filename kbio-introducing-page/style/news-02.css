@@ -886,9 +886,9 @@ body {
 }
 
 .menu-img img {
-    width: 105%;
+    width: 120%;
     position: relative;
-    bottom: 25px;
+    bottom: 0px;
     /* border-radius: 6px; */
     transition: 0.2s;
 }
