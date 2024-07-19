@@ -8,7 +8,7 @@
 #table-section-01 tbody tr,
 #table-section-01 tbody tr td {
     border-collapse: collapse;
-    border: 1px solid #876639;
+    border: 1px solid #bd99c7;
     padding: 5px;
 }
 
@@ -20,6 +20,29 @@
 }
 
 #td-in-list-01 li {
-    list-style-type: none;
-    padding: 0px;
+    list-style-type: disc;
+    padding-left: 0px;
+    margin-left: 18px;
+}
+
+/* 7/19 테이블 디자인 */
+.july-table-title {
+    width: 100%;
+}
+
+.july-table-title .t-title {
+    font-size: 18px;
+}
+
+.july-table-title .t-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.july-table {
+    border-collapse: collapse;
+}
+
+.july-table-bold {
+    border: 2px solid #9461a5;
 }
