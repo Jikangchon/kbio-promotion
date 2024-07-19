@@ -39,10 +39,17 @@
     font-weight: 400;
 }
 
-.july-table {
+#july-kbio-table {
+    overflow: hidden;
+    border-style: hidden;
     border-collapse: collapse;
 }
 
-.july-table-bold {
-    border: 2px solid #9461a5;
+#july-kbio-table tbody tr td,
+#july-kbio-table thead tr th {
+    border: 0.6px solid rgba(189, 153, 200, 1);
+}
+
+#july-kbio-table tbody tr td {
+    padding: 18px;
 }
