@@ -28,15 +28,22 @@
 /* 7/19 테이블 디자인 */
 .july-table-title {
     width: 100%;
+    line-height: 24px;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #ebebeb;
 }
 
 .july-table-title .t-title {
     font-size: 18px;
+    color: rgba(132, 55, 155, 1);
 }
 
 .july-table-title .t-subtitle {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
+    color: #373737;
 }
 
 #july-kbio-table {
